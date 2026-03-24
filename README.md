@@ -44,3 +44,16 @@ python3 scripts/import_exam.py \
   --title "Mi examen" \
   --merge
 ```
+
+## Importar una batería grande desde un solo PDF
+
+Si el PDF incluye preguntas y solucionario al final, puedes partirlo en exámenes de 50:
+
+```bash
+python3 scripts/import_question_bank.py \
+  --pdf "/ruta/bateria.pdf" \
+  --output "data/exams.js" \
+  --exam-id-prefix "bateria-maestro-infantil" \
+  --title-prefix "Maestro/a Infantil · Batería" \
+  --batch-size 50
+```
