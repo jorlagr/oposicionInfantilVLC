@@ -32,6 +32,7 @@
     feedbackText: document.querySelector("#feedback-text"),
     prevQuestion: document.querySelector("#prev-question"),
     nextQuestion: document.querySelector("#next-question"),
+    questionCard: document.querySelector(".question-card"),
   };
 
   const state = {
@@ -157,6 +158,23 @@
     });
   }
 
+  function getScrollBehavior() {
+    return window.matchMedia("(prefers-reduced-motion: reduce)").matches ? "auto" : "smooth";
+  }
+
+  function scrollToQuestionStart() {
+    if (!elements.questionCard) {
+      return;
+    }
+
+    window.requestAnimationFrame(() => {
+      elements.questionCard.scrollIntoView({
+        behavior: getScrollBehavior(),
+        block: "start",
+      });
+    });
+  }
+
   function setFeedback(question, answer) {
     if (!answer) {
       elements.feedback.hidden = true;
@@ -203,6 +221,7 @@
         state.currentQuestionIndex = orderIndex;
         saveProgress();
         render();
+        scrollToQuestionStart();
       });
 
       elements.questionMap.appendChild(button);
@@ -364,6 +383,7 @@
     state.currentQuestionIndex -= 1;
     saveProgress();
     render();
+    scrollToQuestionStart();
   });
 
   elements.nextQuestion.addEventListener("click", () => {
@@ -374,6 +394,7 @@
     state.currentQuestionIndex += 1;
     saveProgress();
     render();
+    scrollToQuestionStart();
   });
 
   hydrateExam(state.examId);
