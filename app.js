@@ -166,7 +166,6 @@
       return;
     }
 
-    const correctOption = question.options.find((option) => option.id === question.correctOption);
     const isCorrect = answer.isCorrect;
 
     elements.feedback.hidden = false;
@@ -174,7 +173,7 @@
     elements.feedbackLabel.textContent = isCorrect ? "Respuesta correcta" : "Respuesta incorrecta";
     elements.feedbackText.textContent = isCorrect
       ? `La opción ${question.correctOption.toUpperCase()} es la válida.`
-      : `La correcta es la ${question.correctOption.toUpperCase()}: ${correctOption.text}`;
+      : `La opción correcta es la ${question.correctOption.toUpperCase()}.`;
   }
 
   function renderQuestionMap() {
