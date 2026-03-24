@@ -12,76 +12,39 @@
   </head>
   <body>
     <div class="page-shell">
-      <header class="hero">
-        <div class="hero__content">
+      <header class="topbar">
+        <div class="topbar__brand">
           <p class="eyebrow">Preparación de oposición</p>
-          <h1>Test web con corrección inmediata</h1>
-          <p class="hero__copy">
-            Practica preguntas una a una, revisa el resultado al instante y retoma tu
-            progreso desde cualquier dispositivo.
+          <h1>Entrenamiento de test</h1>
+          <p class="topbar__copy">
+            Responde con calma, corrige al instante y mantén el foco en una pregunta cada vez.
           </p>
         </div>
-        <div class="hero__panel">
+
+        <div class="topbar__controls">
           <label class="control">
             <span>Examen</span>
             <select id="exam-select" aria-label="Seleccionar examen"></select>
           </label>
-          <div class="hero__actions">
+
+          <div class="toolbar-actions">
             <label class="toggle">
               <input id="random-order" type="checkbox" />
               <span>Orden aleatorio</span>
             </label>
             <button id="reset-progress" class="button button--ghost" type="button">
-              Reiniciar progreso
+              Reiniciar
             </button>
           </div>
         </div>
       </header>
 
       <main class="layout">
-        <aside class="summary-card">
-          <div class="summary-card__header">
-            <p class="eyebrow">Resumen</p>
-            <h2 id="exam-title">Cargando examen...</h2>
-          </div>
-
-          <dl class="stats-grid" aria-live="polite">
-            <div class="stat">
-              <dt>Pregunta</dt>
-              <dd id="stat-current">0 / 0</dd>
-            </div>
-            <div class="stat">
-              <dt>Aciertos</dt>
-              <dd id="stat-correct">0</dd>
-            </div>
-            <div class="stat">
-              <dt>Fallos</dt>
-              <dd id="stat-incorrect">0</dd>
-            </div>
-            <div class="stat">
-              <dt>Sin responder</dt>
-              <dd id="stat-pending">0</dd>
-            </div>
-          </dl>
-
-          <div class="progress-block">
-            <div class="progress-block__meta">
-              <span>Progreso</span>
-              <strong id="progress-label">0%</strong>
-            </div>
-            <div class="progress-bar" aria-hidden="true">
-              <div id="progress-fill" class="progress-bar__fill"></div>
-            </div>
-          </div>
-
-          <nav class="question-map" aria-label="Mapa de preguntas">
-            <div id="question-map" class="question-map__grid"></div>
-          </nav>
-        </aside>
-
         <section class="question-card" aria-live="polite">
           <div class="question-card__header">
-            <p id="question-counter" class="eyebrow">Pregunta 1</p>
+            <div class="question-meta">
+              <p id="question-counter" class="eyebrow">Pregunta 1</p>
+            </div>
             <h2 id="question-text">Cargando pregunta...</h2>
           </div>
 
@@ -99,6 +62,53 @@
             <button id="next-question" class="button" type="button">Siguiente</button>
           </footer>
         </section>
+
+        <aside class="summary-card">
+          <div class="summary-card__header">
+            <p class="eyebrow">Panel</p>
+            <h2 id="exam-title">Cargando examen...</h2>
+            <p class="summary-card__copy">
+              El progreso se guarda en este dispositivo mientras practicas.
+            </p>
+          </div>
+
+          <dl class="stats-grid" aria-live="polite">
+            <div class="stat">
+              <dt>Pregunta</dt>
+              <dd id="stat-current">0 / 0</dd>
+            </div>
+            <div class="stat">
+              <dt>Aciertos</dt>
+              <dd id="stat-correct">0</dd>
+            </div>
+            <div class="stat">
+              <dt>Fallos</dt>
+              <dd id="stat-incorrect">0</dd>
+            </div>
+            <div class="stat">
+              <dt>Pendientes</dt>
+              <dd id="stat-pending">0</dd>
+            </div>
+          </dl>
+
+          <div class="progress-block">
+            <div class="progress-block__meta">
+              <span>Progreso completado</span>
+              <strong id="progress-label">0%</strong>
+            </div>
+            <div class="progress-bar" aria-hidden="true">
+              <div id="progress-fill" class="progress-bar__fill"></div>
+            </div>
+          </div>
+
+          <nav class="question-map" aria-label="Mapa de preguntas">
+            <div class="question-map__header">
+              <span>Mapa de preguntas</span>
+              <span class="question-map__hint">Toca para saltar</span>
+            </div>
+            <div id="question-map" class="question-map__grid"></div>
+          </nav>
+        </aside>
       </main>
     </div>
 
