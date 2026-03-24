@@ -20,6 +20,9 @@
     statPending: document.querySelector("#stat-pending"),
     progressLabel: document.querySelector("#progress-label"),
     progressFill: document.querySelector("#progress-fill"),
+    scoreCard: document.querySelector("#score-card"),
+    scoreValue: document.querySelector("#score-value"),
+    scoreDetail: document.querySelector("#score-detail"),
     questionMap: document.querySelector("#question-map"),
     questionCounter: document.querySelector("#question-counter"),
     questionText: document.querySelector("#question-text"),
@@ -137,6 +140,23 @@
     };
   }
 
+  function calculateScore(exam, counts) {
+    const penalizedCorrect = Math.max(0, counts.correct - counts.incorrect / 3);
+    const score = Math.max(0, (penalizedCorrect / exam.questions.length) * 10);
+
+    return {
+      penalizedCorrect,
+      score,
+    };
+  }
+
+  function formatScore(value) {
+    return value.toLocaleString("es-ES", {
+      minimumFractionDigits: 2,
+      maximumFractionDigits: 2,
+    });
+  }
+
   function setFeedback(question, answer) {
     if (!answer) {
       elements.feedback.hidden = true;
@@ -248,6 +268,20 @@
     elements.statPending.textContent = counts.pending;
     elements.progressLabel.textContent = `${progress}%`;
     elements.progressFill.style.width = `${progress}%`;
+
+    if (counts.pending === 0) {
+      const result = calculateScore(exam, counts);
+      elements.scoreCard.hidden = false;
+      elements.scoreValue.textContent = `${formatScore(result.score)} / 10`;
+      elements.scoreDetail.textContent =
+        `Aciertos netos: ${formatScore(result.penalizedCorrect)} de ${exam.questions.length} ` +
+        `(cada 3 fallos restan 1 acierto).`;
+      return;
+    }
+
+    elements.scoreCard.hidden = true;
+    elements.scoreValue.textContent = "";
+    elements.scoreDetail.textContent = "";
   }
 
   function renderExamSelector() {

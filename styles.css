@@ -242,6 +242,43 @@ select {
   gap: 0.6rem;
 }
 
+.score-card {
+  display: grid;
+  gap: 0.35rem;
+  margin-top: 1rem;
+  padding: 1rem;
+  border: 1px solid rgba(15, 118, 110, 0.18);
+  border-radius: var(--radius-md);
+  background: linear-gradient(180deg, rgba(15, 118, 110, 0.06), rgba(20, 184, 166, 0.03));
+}
+
+.score-card__label,
+.score-card__value,
+.score-card__detail {
+  margin: 0;
+}
+
+.score-card__label {
+  font-size: 0.8rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--accent-strong);
+}
+
+.score-card__value {
+  font-size: 1.9rem;
+  font-weight: 800;
+  letter-spacing: -0.03em;
+  color: var(--text);
+}
+
+.score-card__detail {
+  font-size: 0.9rem;
+  line-height: 1.45;
+  color: var(--muted);
+}
+
 .progress-block__meta {
   display: flex;
   justify-content: space-between;
