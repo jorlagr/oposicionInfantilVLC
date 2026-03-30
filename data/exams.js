@@ -15757,6 +15757,1011 @@ window.TEST_APP_DATA = {
       ]
     },
     {
+      "id": "tema-23-equipo-educativo-primer-ciclo",
+      "title": "Tema 23 · Organización del equipo educativo en el primer ciclo de Educación Infantil",
+      "source": {
+        "questionsDocx": "/Users/jolatorr/Downloads/Cuestionario Tema 23 - Organización del equipo educativo en el primer ciclo de Educa.docx",
+        "answersDocx": "/Users/jolatorr/Downloads/Cuestionario Tema 23 - Organización del equipo educativo en el primer ciclo de Educa.docx"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿A quién va dirigido el plan de transición principalmente?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Alumnado únicamente."
+            },
+            {
+              "id": "b",
+              "text": "Profesorado únicamente."
+            },
+            {
+              "id": "c",
+              "text": "Familia, equipo educativo y alumnado."
+            },
+            {
+              "id": "d",
+              "text": "Familia y alumnado únicamente."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "La transición es:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El paso de un curso a otro que experimenta el alumnado."
+            },
+            {
+              "id": "b",
+              "text": "El paso de una etapa a otra, que experimenta el alumnado."
+            },
+            {
+              "id": "c",
+              "text": "Cuando un alumno/a cambia de colegio."
+            },
+            {
+              "id": "d",
+              "text": "Cuando un alumno/a experimenta un cambio importante en su situación familiar."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Quién forma parte de la reunión de constitución del plan de transición?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Únicamente las tutoras y tutores de ambos ciclos."
+            },
+            {
+              "id": "b",
+              "text": "Tutores/as, técnicos/as de gestión en Educación Infantil, personal especialista en NEE, orientador/a y jefe/a de estudios."
+            },
+            {
+              "id": "c",
+              "text": "Únicamente los tutores/as de primer ciclo y jefe/a de estudios."
+            },
+            {
+              "id": "d",
+              "text": "El equipo directivo del centro."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "En el cambio significativo que supone el paso de primer ciclo a segundo ciclo de Educación Infantil destaca sobre todo...",
+          "options": [
+            {
+              "id": "a",
+              "text": "El cambio de material didáctico."
+            },
+            {
+              "id": "b",
+              "text": "El cambio de rutinas."
+            },
+            {
+              "id": "c",
+              "text": "El cambio de espacios y profesorado."
+            },
+            {
+              "id": "d",
+              "text": "El cambio de compañero/as."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "En el primer ciclo de educación infantil, el equipo educativo estará formado por...",
+          "options": [
+            {
+              "id": "a",
+              "text": "Los tutores de las aulas."
+            },
+            {
+              "id": "b",
+              "text": "Todos los profesionales que intervienen en el centro educativo."
+            },
+            {
+              "id": "c",
+              "text": "Todos los profesionales (maestros/as en Educación Infantil y técnicos/as de gestión en Educación Infantil) que intervienen en el primer ciclo de Educación Infantil."
+            },
+            {
+              "id": "d",
+              "text": "Todos los profesionales que intervienen en el centro educativo y las familias de los alumnos."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "En el plan de transición se organiza principalmente...",
+          "options": [
+            {
+              "id": "a",
+              "text": "La reunión de constitución, la planificación de posibles actividades que se van a realizar a lo largo del curso, la evaluación del proceso y al final del mismo y las propuestas de mejora."
+            },
+            {
+              "id": "b",
+              "text": "La planificación de las actividades que se van a realizar a lo largo del curso en el segundo ciclo de Educación Infantil."
+            },
+            {
+              "id": "c",
+              "text": "La evaluación de los saberes de los alumno/as que terminan el primer ciclo de Educación Infantil."
+            },
+            {
+              "id": "d",
+              "text": "La planificación de actividades y propuestas de mejora en cuanto a las actividades complementarias que se realizan en el centro."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Cuál es la función principal del tutor/a en el primer ciclo de educación infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Recoger toda la información del alumno/a que aporta la familia."
+            },
+            {
+              "id": "b",
+              "text": "Realizar el seguimiento, tanto individual como de grupo, del proceso de aprendizaje de todos los niños, y favorecer un sentimiento de bienestar en la escuela."
+            },
+            {
+              "id": "c",
+              "text": "Reunirse con la familia para informar del proceso de aprendizaje de los alumno/as."
+            },
+            {
+              "id": "d",
+              "text": "Preparar actividades motivadoras para los alumno/as."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "El plan de transición forma parte del:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Proyecto lingüístico de centro (PLC)."
+            },
+            {
+              "id": "b",
+              "text": "Proyecto educativo de centro (PEC)."
+            },
+            {
+              "id": "c",
+              "text": "Proyecto curricular de centro (PCC)."
+            },
+            {
+              "id": "d",
+              "text": "Programación general anual (PGA)."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "En el plan de transición, las reuniones de interciclo sirven para...",
+          "options": [
+            {
+              "id": "a",
+              "text": "Intercambiar información sobre los intereses del alumnado."
+            },
+            {
+              "id": "b",
+              "text": "Que los tutores de ambos ciclos se conozcan."
+            },
+            {
+              "id": "c",
+              "text": "Que los alumno/as de ambos ciclos se conozcan."
+            },
+            {
+              "id": "d",
+              "text": "Intercambiar información entre los tutores de ambos ciclos y establecer pautas de actuación con los alumno/as con NEE."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "Al finalizar el plan de transición entre ambos ciclos:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Se planificarán reuniones con las familias."
+            },
+            {
+              "id": "b",
+              "text": "Se evaluará el proceso del mismo y se ofrecerán propuestas de mejora para el curso siguiente."
+            },
+            {
+              "id": "c",
+              "text": "Se planificarán las actividades para el siguiente curso escolar."
+            },
+            {
+              "id": "d",
+              "text": "Se evaluará el rendimiento del alumnado que inicia el segundo ciclo de Educación Infantil."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "tema-25-contextos-aprendizaje-primer-ciclo",
+      "title": "Tema 25 · Organización de los contextos de aprendizaje en el primer ciclo de Educación Infantil",
+      "source": {
+        "questionsDocx": "/Users/jolatorr/Downloads/Cuestionario Tema 25 - Organización de los contextos de aprendizaje en el primer cic.docx",
+        "answersDocx": "/Users/jolatorr/Downloads/Cuestionario Tema 25 - Organización de los contextos de aprendizaje en el primer cic.docx"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Material fungible se define como:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Material de uso esporádico."
+            },
+            {
+              "id": "b",
+              "text": "Material reciclable."
+            },
+            {
+              "id": "c",
+              "text": "Material de uso cotidiano."
+            },
+            {
+              "id": "d",
+              "text": "Material con un único uso."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "Decroly fundó:",
+          "options": [
+            {
+              "id": "a",
+              "text": "L’ecole d’Ermitage."
+            },
+            {
+              "id": "b",
+              "text": "Escuela Materna."
+            },
+            {
+              "id": "c",
+              "text": "La Casa dei Bambini."
+            },
+            {
+              "id": "d",
+              "text": "Las instalaciones de juego."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "Salla (1986) indica que el espacio educativo:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Es un elemento que permite que la acción educativa esté organizada."
+            },
+            {
+              "id": "b",
+              "text": "Es el punto de inicio de la acción educativa."
+            },
+            {
+              "id": "c",
+              "text": "Está sobrevalorado."
+            },
+            {
+              "id": "d",
+              "text": "No incide en el aprendizaje del niño/a."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "Según Loughlin y Suina en 1987, el ambiente:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Hay que organizarlo con las familias."
+            },
+            {
+              "id": "b",
+              "text": "Influye significativamente en aquellos que los ocupan."
+            },
+            {
+              "id": "c",
+              "text": "Solo es el aula."
+            },
+            {
+              "id": "d",
+              "text": "Se refiere al patio escolar."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Los criterios de Zabalza (1983) para la selección de materiales son:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Coherencia y adaptabilidad."
+            },
+            {
+              "id": "b",
+              "text": "Coherencia y uso."
+            },
+            {
+              "id": "c",
+              "text": "Edad y Adaptabilidad."
+            },
+            {
+              "id": "d",
+              "text": "Tamaño y uso."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Cuál de los siguientes NO es un criterio para la distribución y organización adecuada del tiempo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El horario debe ser conocido y comprendido por el grupo-clase para ir adquiriendo la noción del tiempo y orientarse en él."
+            },
+            {
+              "id": "b",
+              "text": "Las familias no deben conocer previamente la organización del tiempo para evitar la anticipación del niño o la niña."
+            },
+            {
+              "id": "c",
+              "text": "Programaremos las actividades atendiendo a la curva de fatiga de los niños y niñas."
+            },
+            {
+              "id": "d",
+              "text": "Alternaremos actividades que requieran mayor esfuerzo de concentración con aquellas que estén más centradas en sus intereses."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Maria Montessori fundó un modelo llamado:",
+          "options": [
+            {
+              "id": "a",
+              "text": "L’ecole d’Ermitage."
+            },
+            {
+              "id": "b",
+              "text": "Escuela Materna."
+            },
+            {
+              "id": "c",
+              "text": "La Casa dei Bambini."
+            },
+            {
+              "id": "d",
+              "text": "Las instalaciones de juego."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "La organización temporal en Educación Infantil será:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Continua."
+            },
+            {
+              "id": "b",
+              "text": "Cerrada."
+            },
+            {
+              "id": "c",
+              "text": "Flexible."
+            },
+            {
+              "id": "d",
+              "text": "Estática."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Según Moll y Pujol (1991), el mobiliario debe reunir como condición:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ser adecuado a la edad."
+            },
+            {
+              "id": "b",
+              "text": "Cualquier mobiliario es adecuado."
+            },
+            {
+              "id": "c",
+              "text": "Ser reciclable."
+            },
+            {
+              "id": "d",
+              "text": "Debe tener salientes."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "Destaca Zabalza (1987) como propuesta de organización espacial:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Las instalaciones de juego."
+            },
+            {
+              "id": "b",
+              "text": "Los rincones de juego o actividad."
+            },
+            {
+              "id": "c",
+              "text": "Ambientes de trabajo."
+            },
+            {
+              "id": "d",
+              "text": "Talleres."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "tema-26-propuesta-pedagogica",
+      "title": "Tema 26 · Concreción del proyecto educativo de centro en la propuesta pedagógica",
+      "source": {
+        "questionsDocx": "/Users/jolatorr/Downloads/Cuestionario Tema 26 - Concreción del proyecto educativo de centro en la propuesta p.docx",
+        "answersDocx": "/Users/jolatorr/Downloads/Cuestionario Tema 26 - Concreción del proyecto educativo de centro en la propuesta p.docx"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Si comparamos la metodología de rincones y la de talleres, uno de los siguientes enunciados NO es correcto. ¿Puede indicarlo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Los rincones son una forma de organización espacio - temporal."
+            },
+            {
+              "id": "b",
+              "text": "Ambos se basan en la actividad y el juego."
+            },
+            {
+              "id": "c",
+              "text": "Los talleres son más dirigidos que los rincones, cuya actividad es esencialmente libre."
+            },
+            {
+              "id": "d",
+              "text": "Ambas parten de la propuesta de Decroly."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Cuál de las siguientes es una característica de la Escuela Nueva?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Coeducación."
+            },
+            {
+              "id": "b",
+              "text": "Memorización."
+            },
+            {
+              "id": "c",
+              "text": "Globalización."
+            },
+            {
+              "id": "d",
+              "text": "Reutilización."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Cómo deben ser las programaciones de aula?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Flexibles."
+            },
+            {
+              "id": "b",
+              "text": "Cerradas."
+            },
+            {
+              "id": "c",
+              "text": "Irreales."
+            },
+            {
+              "id": "d",
+              "text": "Memorísticas."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Cuál de las siguientes afirmaciones es correcta en cuanto a la Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Las relaciones con la familia carecen de importancia."
+            },
+            {
+              "id": "b",
+              "text": "Los núcleos y ejes de trabajo deben partir de los intereses del equipo educativo."
+            },
+            {
+              "id": "c",
+              "text": "La atención al alumnado debe ser fría y poco afectiva."
+            },
+            {
+              "id": "d",
+              "text": "Se ha de propiciar la manipulación, la observación y la exploración."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "En las programaciones de aula se tienen que prever las adecuaciones necesarias para atender a los niños y niñas con la necesidad específica de apoyo educativo desde una perspectiva inclusiva, teniendo en cuenta los principios del...",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollo infantil."
+            },
+            {
+              "id": "b",
+              "text": "DUA."
+            },
+            {
+              "id": "c",
+              "text": "Plan de acogida."
+            },
+            {
+              "id": "d",
+              "text": "Proyecto educativo de centro."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Cuál de los siguientes autores es el promotor de los proyectos (ABP)?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Kilpatric."
+            },
+            {
+              "id": "b",
+              "text": "Decroly."
+            },
+            {
+              "id": "c",
+              "text": "Montessori."
+            },
+            {
+              "id": "d",
+              "text": "Freinet."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "La programación de aula tiene que incluir, entre otros:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Características del grupo."
+            },
+            {
+              "id": "b",
+              "text": "Medidas organizativas."
+            },
+            {
+              "id": "c",
+              "text": "Plan de acogida."
+            },
+            {
+              "id": "d",
+              "text": "Plan de autoprotección."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "Todos los siguientes son principios clave del trabajo por ambientes, excepto que:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El alumno/a construye su propio aprendizaje."
+            },
+            {
+              "id": "b",
+              "text": "Utiliza el juego como recurso didáctico."
+            },
+            {
+              "id": "c",
+              "text": "Plantea la organización de los contenidos como principal estrategia didáctica."
+            },
+            {
+              "id": "d",
+              "text": "El docente adquiere un rol de guía y mediador del proceso de aprendizaje."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿Qué artículo del Decreto 100/2022 del 29 de julio, del Consell, por el cual se establece la ordenación y el currículo de Educación Infantil, regula la programación de aula?",
+          "options": [
+            {
+              "id": "a",
+              "text": "17."
+            },
+            {
+              "id": "b",
+              "text": "18."
+            },
+            {
+              "id": "c",
+              "text": "20."
+            },
+            {
+              "id": "d",
+              "text": "21."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "Según el momento en el que se ejecuten, un tipo de actividad es:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Actividad de desarrollo."
+            },
+            {
+              "id": "b",
+              "text": "Actividad individual."
+            },
+            {
+              "id": "c",
+              "text": "Actividad de psicomotricidad."
+            },
+            {
+              "id": "d",
+              "text": "Actividad de expresión plástica y visual."
+            }
+          ],
+          "correctOption": "a"
+        }
+      ]
+    },
+    {
+      "id": "tema-27-evaluacion-proceso-educativo",
+      "title": "Tema 27 · Evaluación del proceso educativo",
+      "source": {
+        "questionsDocx": "/Users/jolatorr/Downloads/Cuestionario Tema 27 - Evaluación del proceso educativo.docx",
+        "answersDocx": "/Users/jolatorr/Downloads/Cuestionario Tema 27 - Evaluación del proceso educativo.docx",
+        "questionsPdf": "/Users/jolatorr/Downloads/TEST TEMA 27.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Señala la opción correcta:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Todo el alumnado tiene el mismo ritmo de aprendizaje."
+            },
+            {
+              "id": "b",
+              "text": "Todo el alumnado tiene el mismo proceso de maduración."
+            },
+            {
+              "id": "c",
+              "text": "La observación nos aporta datos acerca del proceso de aprendizaje del niño/a."
+            },
+            {
+              "id": "d",
+              "text": "Los exámenes son el instrumento de evaluación más idóneo en Educación Infantil."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "La evaluación en Educación Infantil:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Está orientada a recoger información relevante para conocer y valorar el proceso de desarrollo y aprendizaje de los niños y niñas vivido en la escuela."
+            },
+            {
+              "id": "b",
+              "text": "Está orientada a calificar numéricamente las áreas a través de los desempeños que son capaces de realizar los niños y niñas durante la jornada escolar."
+            },
+            {
+              "id": "c",
+              "text": "Está orientada a detectar aspectos como las altas capacidades intelectuales de las niñas y los niños de esta etapa."
+            },
+            {
+              "id": "d",
+              "text": "Está orientada al desarrollo profesional del personal docente y no docente que intervienen en esta etapa."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Qué significa una evaluación cualitativa?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Que se basa en los resultados obtenidos."
+            },
+            {
+              "id": "b",
+              "text": "Que explica la evolución de los niño/as sin valorar los resultados."
+            },
+            {
+              "id": "c",
+              "text": "Que tiene en cuenta las calificaciones obtenidas."
+            },
+            {
+              "id": "d",
+              "text": "Que tiene en cuenta las limitaciones de los niño/as."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Qué significa una evaluación positiva?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Que tiene en cuenta las limitaciones de los niño/as."
+            },
+            {
+              "id": "b",
+              "text": "Que tiene en cuenta las calificaciones obtenidas."
+            },
+            {
+              "id": "c",
+              "text": "Que reconoce los procesos individuales y capacidades de cada niño/a y no sus limitaciones."
+            },
+            {
+              "id": "d",
+              "text": "Que se basa en los resultados obtenidos."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Cuáles son las estrategias de la evaluación continua de la etapa?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Cuestionarios cognitivos y documentación pedagógica."
+            },
+            {
+              "id": "b",
+              "text": "Observación e historial académico del niño/a."
+            },
+            {
+              "id": "c",
+              "text": "Observación y documentación pedagógica."
+            },
+            {
+              "id": "d",
+              "text": "Cuestionarios cognitivos e historial académico del niño/a."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Por qué la evaluación tiene una función formativa?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Porque tiene que mejorar las calificaciones obtenidas de los niño/as."
+            },
+            {
+              "id": "b",
+              "text": "Porque tiene que contribuir a mejorar el aprendizaje de los niño/as."
+            },
+            {
+              "id": "c",
+              "text": "Porque tiene en cuenta las limitaciones de los niño/as."
+            },
+            {
+              "id": "d",
+              "text": "Porque tiene que contribuir a mejorar el proceso de enseñanza y de aprendizaje de todas las personas profesionales de educación infantil."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Qué es el informe global individualizado de final de ciclo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Informe de necesidades educativas del niño/a."
+            },
+            {
+              "id": "b",
+              "text": "Documento descriptivo que sirve como fuente de información, a la posterior tutora o tutor, para facilitar la acogida y la continuidad al inicio del ciclo o etapa siguiente."
+            },
+            {
+              "id": "c",
+              "text": "Informe de los resultados académicos conseguidos a lo largo del ciclo."
+            },
+            {
+              "id": "d",
+              "text": "Documento de datos básicos del alumno/a."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Qué es la ficha de datos básicos del alumno/a que se encuentra en el expediente del alumno/a?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Carpeta o ficha que contiene los planes de acción personalizado de cada alumno/a."
+            },
+            {
+              "id": "b",
+              "text": "Carpeta o ficha que contiene los informes de necesidades educativas del alumno/a."
+            },
+            {
+              "id": "c",
+              "text": "Carpeta o ficha que contiene los datos personales, familiares, sociopsicopedagógicos y médicos del proceso de desarrollo y relevantes para la vida escolar del niño o la niña."
+            },
+            {
+              "id": "d",
+              "text": "Carpeta o ficha que contiene el informe global individualizado del alumno/a."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿Quién firma el resumen de la escolarización y el informe global individualizado del niño o la niña?",
+          "options": [
+            {
+              "id": "a",
+              "text": "La jefatura de estudios del centro."
+            },
+            {
+              "id": "b",
+              "text": "La dirección del centro."
+            },
+            {
+              "id": "c",
+              "text": "La secretaría del centro."
+            },
+            {
+              "id": "d",
+              "text": "El tutor/a del alumno."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Cuántas reuniones colectivas con las familias se realizan, como mínimo, a lo largo del curso?",
+          "options": [
+            {
+              "id": "a",
+              "text": "2 reuniones."
+            },
+            {
+              "id": "b",
+              "text": "3 reuniones."
+            },
+            {
+              "id": "c",
+              "text": "4 reuniones."
+            },
+            {
+              "id": "d",
+              "text": "5 reuniones."
+            }
+          ],
+          "correctOption": "a"
+        }
+      ]
+    },
+    {
       "id": "tecnico-especialista-educacion-infantil-elche-2021-teorico",
       "title": "Técnico/a Especialista en Educación Infantil · Elche · Teórico · 29/05/2021",
       "source": {
