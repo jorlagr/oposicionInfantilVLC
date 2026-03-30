@@ -16008,6 +16008,257 @@ window.TEST_APP_DATA = {
       ]
     },
     {
+      "id": "tema-24-proyecto-educativo-primer-ciclo",
+      "title": "Tema 24 · El proyecto educativo de centro para el primer ciclo de Educación Infantil",
+      "source": {
+        "questionsDocx": "/Users/jolatorr/Downloads/Cuestionario Tema 24 - El proyecto educativo de centro para el primer ciclo de Educa.docx",
+        "answersDocx": "/Users/jolatorr/Downloads/Cuestionario Tema 24 - El proyecto educativo de centro para el primer ciclo de Educa.docx"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Cómo debe ser el acceso o entrada en el aula a lo largo del curso escolar?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Horario fijo, estable."
+            },
+            {
+              "id": "b",
+              "text": "Flexible."
+            },
+            {
+              "id": "c",
+              "text": "Entrada escalonada."
+            },
+            {
+              "id": "d",
+              "text": "Libre."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Cuáles son las siglas del proyecto educativo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "PEPLI."
+            },
+            {
+              "id": "b",
+              "text": "PELO."
+            },
+            {
+              "id": "c",
+              "text": "PEC."
+            },
+            {
+              "id": "d",
+              "text": "PEL."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Quién aprueba y evalúa el proyecto educativo de centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Equipo de orientación del centro."
+            },
+            {
+              "id": "b",
+              "text": "Consejo escolar."
+            },
+            {
+              "id": "c",
+              "text": "Equipo docente."
+            },
+            {
+              "id": "d",
+              "text": "Equipo directivo."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Cuándo se realiza el periodo de acogida del alumno/a al centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "En junio."
+            },
+            {
+              "id": "b",
+              "text": "En julio."
+            },
+            {
+              "id": "c",
+              "text": "En septiembre."
+            },
+            {
+              "id": "d",
+              "text": "En octubre."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "La distribución de la rutina diaria va a depender, principalmente de:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El horario de trabajo de los padres."
+            },
+            {
+              "id": "b",
+              "text": "El consejo escolar."
+            },
+            {
+              "id": "c",
+              "text": "Las edades de los niño/as."
+            },
+            {
+              "id": "d",
+              "text": "El horario que establezca el equipo directivo del centro."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué es la línea pedagógica del centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Conjunto de estrategias, procedimientos y acciones organizadas que tienen la finalidad de facilitar las posibilidades de aprendizaje del niño/a."
+            },
+            {
+              "id": "b",
+              "text": "Conjunto de actividades que se realizan en el centro en horario lectivo."
+            },
+            {
+              "id": "c",
+              "text": "Conjunto de proyectos de innovación que se realizan en un centro."
+            },
+            {
+              "id": "d",
+              "text": "Conjunto de actividades que se realizan en el aula."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Quién elabora el proyecto educativo de centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Equipo de orientación del centro."
+            },
+            {
+              "id": "b",
+              "text": "Consejo escolar."
+            },
+            {
+              "id": "c",
+              "text": "Equipo educativo."
+            },
+            {
+              "id": "d",
+              "text": "Equipo directivo."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Qué son las señas de identidad del centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El conjunto de proyectos que se elaboran en un centro."
+            },
+            {
+              "id": "b",
+              "text": "Los objetivos del centro."
+            },
+            {
+              "id": "c",
+              "text": "El equipo educativo de un centro."
+            },
+            {
+              "id": "d",
+              "text": "El conjunto de valores, finalidades y prioridades de actuación de un centro."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿Qué es el proyecto educativo de centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Documento que recoge los horarios de los docentes."
+            },
+            {
+              "id": "b",
+              "text": "Documento que recoge las instrucciones de inicio de curso."
+            },
+            {
+              "id": "c",
+              "text": "Documento pedagógico elaborado por y para la comunidad educativa."
+            },
+            {
+              "id": "d",
+              "text": "Documento pedagógico que recoge el proyecto lingüístico del centro."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Cómo se planifican las actividades pedagógicas que se van a realizar a lo largo de la jornada escolar?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Se planifican de acuerdo con la interculturalidad del aula."
+            },
+            {
+              "id": "b",
+              "text": "Se planifican de acuerdo con los intereses del equipo docente del centro."
+            },
+            {
+              "id": "c",
+              "text": "Se planifican de acuerdo con los mínimos establecidos en el consejo escolar."
+            },
+            {
+              "id": "d",
+              "text": "Se planifican de acuerdo con los intereses de niños y niñas y su edad, según sus características y respetando la diversidad e interculturalidad."
+            }
+          ],
+          "correctOption": "d"
+        }
+      ]
+    },
+    {
       "id": "tema-25-contextos-aprendizaje-primer-ciclo",
       "title": "Tema 25 · Organización de los contextos de aprendizaje en el primer ciclo de Educación Infantil",
       "source": {
