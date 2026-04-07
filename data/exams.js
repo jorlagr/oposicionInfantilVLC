@@ -17013,6 +17013,593 @@ window.TEST_APP_DATA = {
       ]
     },
     {
+      "id": "tema-3-autores",
+      "title": "Tema 3 · Autores y corrientes pedagógicas",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/Autores.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/Autores.pdf"
+      },
+      "questionCount": 24,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Cuál de los siguientes principios, bases de la escuela nueva, concibe al niño como eje de todo proceso educativo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Naturalismo"
+            },
+            {
+              "id": "b",
+              "text": "Activismo"
+            },
+            {
+              "id": "c",
+              "text": "Puerocentrismo"
+            },
+            {
+              "id": "d",
+              "text": "Educación en valores"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "De los siguientes aspectos, ¿cuál es el que no corresponde a la obra froebeliana?",
+          "options": [
+            {
+              "id": "a",
+              "text": "La importancia que otorga al desarrollo de distintas formas de expresión y representación, y fundamentalmente a lenguaje oral."
+            },
+            {
+              "id": "b",
+              "text": "El pensamiento reflexivo como función principal de la inteligencia."
+            },
+            {
+              "id": "c",
+              "text": "La valoración de la integración y participación en el grupo social."
+            },
+            {
+              "id": "d",
+              "text": "A Fröbel se le considera el precursor de la globalización"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "La educación tiene que ser agradable para los niñ@s, a través del juego deberán desarrollarse sus costumbres. ¿A quién se le atribuye la creación de la escuela de párvulos?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Maria Montessori"
+            },
+            {
+              "id": "b",
+              "text": "Kilpatrick"
+            },
+            {
+              "id": "c",
+              "text": "Pablo Montesinos"
+            },
+            {
+              "id": "d",
+              "text": "Bernad Aucouturier"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "Paidocentrismo, Interés, Individualización, Socialización, Globalización, Actividad, Autoeducación y colaboración son:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Objetivos de ciclo"
+            },
+            {
+              "id": "b",
+              "text": "Valores educativos"
+            },
+            {
+              "id": "c",
+              "text": "Principios pedagógicos"
+            },
+            {
+              "id": "d",
+              "text": "Ninguna es correcta"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Cuál de estas NO es una de las características más significativas de María Montessori:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Estructuración cuidada del ambiente"
+            },
+            {
+              "id": "b",
+              "text": "Aprendizaje por centros de interés"
+            },
+            {
+              "id": "c",
+              "text": "Respeto por el ritmo individual"
+            },
+            {
+              "id": "d",
+              "text": "Autonomía del aprendizaje"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "Que autor/a nos habla sobre utilizar recursos naturales y familiares, ambientes familiares de afecto materno y fomentar la iniciativa propia de l@s niñ@s:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Dewey"
+            },
+            {
+              "id": "b",
+              "text": "Freinet"
+            },
+            {
+              "id": "c",
+              "text": "Hermanas Agazzi"
+            },
+            {
+              "id": "d",
+              "text": "Maria Montessori"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Para Howard Gardner, los test tradicionales de inteligencia:",
+          "options": [
+            {
+              "id": "a",
+              "text": "No miden más que la concepción verbal y lógico-matemática"
+            },
+            {
+              "id": "b",
+              "text": "Son una extensión del tiempo de aprendizaje"
+            },
+            {
+              "id": "c",
+              "text": "Son tertulias literarias dialógicas"
+            },
+            {
+              "id": "d",
+              "text": "Ninguna es correcta"
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿En sus estudios Gardner habla de diferentes inteligencias, señala la correcta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "La inteligencia musical o capacidad de percibir"
+            },
+            {
+              "id": "b",
+              "text": "La inteligencia lógica y matemática"
+            },
+            {
+              "id": "c",
+              "text": "La inteligencia física y cinestésica"
+            },
+            {
+              "id": "d",
+              "text": "Todas son correctas"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Los movimientos de Renovación pedagógica como la fundación Cátedra Soler y Godes se creó para fomentar:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La relación entre la universidad y la enseñanza no universitaria, favorecer las investigaciones didácticas y pedagógicas, fomentar la innovación educativa en todos los aspectos vinculados a renovación pedagógica y a la creación de materiales didácticos, con la finalidad de ir construyendo la escuela valenciana."
+            },
+            {
+              "id": "b",
+              "text": "La relación entre el primer ciclo de educación infantil y la enseñanza no universitaria, favorecer las investigaciones didácticas y pedagógicas, fomentar la innovación educativa en todos los aspectos vinculados a renovación pedagógica y a la creación de materiales didácticos, con la finalidad de ir construyendo la escuela valenciana."
+            },
+            {
+              "id": "c",
+              "text": "La relación entre infantil y primaria, favorecer las investigaciones didácticas y pedagógicas, fomentar la innovación educativa en todos los aspectos vinculados a renovación pedagógica y a la creación de materiales didácticos,con la finalidad de ir construyendo la escuela valenciana."
+            },
+            {
+              "id": "d",
+              "text": "Ninguna es correcta."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "En la escuela viva…",
+          "options": [
+            {
+              "id": "a",
+              "text": "El juego libre no es la herramienta principal para explorar el medio."
+            },
+            {
+              "id": "b",
+              "text": "El juego es dirigido"
+            },
+            {
+              "id": "c",
+              "text": "El juego libre es la herramienta principal para explorar el medio que le rodea para crear situaciones y para inventar sus propios mundos."
+            },
+            {
+              "id": "d",
+              "text": "a i c son correctas."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "text": "Psicología de la Gestalt ¿Cuál es la afirmación correcta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Los conocimientos se adquieren mediante los procesos de acomodación y asimilación."
+            },
+            {
+              "id": "b",
+              "text": "El niño recibe un conjunto de instrumentos y estrategias psicológicas de las personas que le rodean"
+            },
+            {
+              "id": "c",
+              "text": "Los primeros años se deben consolidar en el niño unos conocimientos y destrezas básicas"
+            },
+            {
+              "id": "d",
+              "text": "Todos creamos en nuestra mente imágenes más o menos coherentes sobre nosotros y lo que nos rodea"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "text": "Aportes de la Gestalt a la educación actual. Señala la correcta",
+          "options": [
+            {
+              "id": "a",
+              "text": "Él aprendizaje no tiene lugar por reforzamiento, sino por significación."
+            },
+            {
+              "id": "b",
+              "text": "Propone un pensamiento productivo en el cual se debe dar una comprensión estructural mediante la percepción significativa y una organización de la relaciones"
+            },
+            {
+              "id": "c",
+              "text": "Esta teoría involucra al educador como un orientador o facilitador, que permite mediante el cuestionamiento de las diversas situaciones, el aprendizaje de sus estudiantes."
+            },
+            {
+              "id": "d",
+              "text": "El aprendizaje no es solamente la adquisición de un hábito sino la creación de una representación interna o mental de un camino que conduce al éxito"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "text": "Según las investigaciones sobre el cognitivismo respecto al estudio del proceso enseñanza-aprendizaje:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Atañe exclusivamente a los pedagogos."
+            },
+            {
+              "id": "b",
+              "text": "Serán los directores los que marcarán las directrices que se deberán seguir para realizar este estudio."
+            },
+            {
+              "id": "c",
+              "text": "Afirman que se debe involucrar a toda persona que ejerce la docencia, independientemente de su profesión."
+            },
+            {
+              "id": "d",
+              "text": "Ninguna es correcta."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "text": "El mayor precursor del conductismo radical es…",
+          "options": [
+            {
+              "id": "a",
+              "text": "Bandura"
+            },
+            {
+              "id": "b",
+              "text": "Skinner"
+            },
+            {
+              "id": "c",
+              "text": "Tolman"
+            },
+            {
+              "id": "d",
+              "text": "Timberlake"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "text": "Freud, planteó el enorme papel que juega las experiencias tempranas en la vida del adulto…",
+          "options": [
+            {
+              "id": "a",
+              "text": "Subraya la importancia de los primeros instintos que aparecen en la persona"
+            },
+            {
+              "id": "b",
+              "text": "Da valor a la aparición de las emociones, los sentimientos los desequilibrios que originan los primeros conflictos de orden químico, como el complejo de Edipo"
+            },
+            {
+              "id": "c",
+              "text": "Pone de relieve la vida sexual de los niños y la actividad de los procesos de la infancia: periodo oral, anal..."
+            },
+            {
+              "id": "d",
+              "text": "Todas son correctas."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "text": "¿Quién defiende la pedagogía activa, la formación del profesorado y la disminución de la ratio?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Francisco de los Ríos."
+            },
+            {
+              "id": "b",
+              "text": "Paulo Freire."
+            },
+            {
+              "id": "c",
+              "text": "Rosa Sensat."
+            },
+            {
+              "id": "d",
+              "text": "Celestin Freinet."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "text": "\"El colectivo de personas vinculadas directamente con la enseñanza, que partiendo de la dimensión pedagógica de Ceiestin Freinet realizan un trabajo cooperativo, crítico e investigador que da lugar a una transformación y renovación de la escuela\". Es una definición que corresponde a…",
+          "options": [
+            {
+              "id": "a",
+              "text": "Movimiento de Renovación Pedagógica."
+            },
+            {
+              "id": "b",
+              "text": "Educación Viva."
+            },
+            {
+              "id": "c",
+              "text": "Movimiento Cooperativo de Escuela Popular."
+            },
+            {
+              "id": "d",
+              "text": "Educación Lenta."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "text": "La filosofía Reggio Emilia es un método de enseñanza vivencial basado en el compromiso de todos los miembros encargados de la educación de las niñas y niños donde… (Señala la incorrecta)",
+          "options": [
+            {
+              "id": "a",
+              "text": "El alumnado será el protagonista."
+            },
+            {
+              "id": "b",
+              "text": "El docente es el que guía y documentar las experiencias."
+            },
+            {
+              "id": "c",
+              "text": "La importancia del espacio."
+            },
+            {
+              "id": "d",
+              "text": "La familia es irelevante."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "text": "El método Waldorf es uno de los sistemas educativos alternativos más conocidos. La pedagogía Waldorf, Iniciada por el filósofo alemán Rudolf Steiner, busca el desarrollo de cada niña y niño en:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Un ambiente libre y cooperativo,y con un fuerte apoyo en el arte y los trabajos manuales."
+            },
+            {
+              "id": "b",
+              "text": "La participación de la familia en el día a día de la escuela, la formación permanente del profesorado"
+            },
+            {
+              "id": "c",
+              "text": "La atención al momento madurativo de cada alumno para darle su tiempo en sus procesos de desarrollo."
+            },
+            {
+              "id": "d",
+              "text": "Todas son correctas"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "text": "La base de la metodología de Ovidio Decroly es:",
+          "options": [
+            {
+              "id": "a",
+              "text": "la observación."
+            },
+            {
+              "id": "b",
+              "text": "estructuración cuidada del ambiente."
+            },
+            {
+              "id": "c",
+              "text": "a y b son correctas"
+            },
+            {
+              "id": "d",
+              "text": "aprendizaje mecánico y formal."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "text": "Rebeca Wild, ¿Qué perseguía en sus escuelas?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Defiende que el niño y la niña para su desarrollo necesita libertad y límites."
+            },
+            {
+              "id": "b",
+              "text": "Que la autonomía del niño y la niña también se persigue a la hora de tratar los conflictos en los que los protagonistas los que resuelvan por ellos."
+            },
+            {
+              "id": "c",
+              "text": "Utilizar de manera libre algunos materiales de Montessori."
+            },
+            {
+              "id": "d",
+              "text": "Todas son correctas."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "text": "En las comunidades de aprendizaje…",
+          "options": [
+            {
+              "id": "a",
+              "text": "El aprendizaje escolar recae en manos del profesorado."
+            },
+            {
+              "id": "b",
+              "text": "No hacen partícipes a las familias."
+            },
+            {
+              "id": "c",
+              "text": "Se basan en teoría de Piaget."
+            },
+            {
+              "id": "d",
+              "text": "Su planteamiento pedagógico eje es la posibilidad de favorecer el ámbito social y disminuir las desigualdades."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "text": "Cuando hablamos del principio organizativo, nos referimos a:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Organización del proceso de enseñanza- aprendizaje."
+            },
+            {
+              "id": "b",
+              "text": "Organización de la intención educativa."
+            },
+            {
+              "id": "c",
+              "text": "Organización de espacios, tiempos y grupos."
+            },
+            {
+              "id": "d",
+              "text": "Organización de espacios, tiempos y materiales."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "text": "La experiencia renovadora de Preescolar Na Casa toma como base:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Una educación plena y globalizada."
+            },
+            {
+              "id": "b",
+              "text": "La vida diaria y el entorno familiar y social."
+            },
+            {
+              "id": "c",
+              "text": "Las potencialidades del entorno."
+            },
+            {
+              "id": "d",
+              "text": "La educación globalizada de niñas y niños de 0 a 6 años en el medio urbano."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
       "id": "tecnico-especialista-educacion-infantil-elche-2021-teorico",
       "title": "Técnico/a Especialista en Educación Infantil · Elche · Teórico · 29/05/2021",
       "source": {
