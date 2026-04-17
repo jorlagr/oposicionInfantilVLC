@@ -15,15 +15,20 @@
     resetProgress: document.querySelector("#reset-progress"),
     examTitle: document.querySelector("#exam-title"),
     statCurrent: document.querySelector("#stat-current"),
+    statCorrectLabel: document.querySelector("#stat-correct-label"),
     statCorrect: document.querySelector("#stat-correct"),
+    statIncorrectLabel: document.querySelector("#stat-incorrect-label"),
     statIncorrect: document.querySelector("#stat-incorrect"),
+    statPendingLabel: document.querySelector("#stat-pending-label"),
     statPending: document.querySelector("#stat-pending"),
     progressLabel: document.querySelector("#progress-label"),
     progressFill: document.querySelector("#progress-fill"),
     scoreCard: document.querySelector("#score-card"),
     scoreValue: document.querySelector("#score-value"),
     scoreDetail: document.querySelector("#score-detail"),
+    finishExam: document.querySelector("#finish-exam"),
     questionMap: document.querySelector("#question-map"),
+    questionMapHint: document.querySelector("#question-map-hint"),
     questionCounter: document.querySelector("#question-counter"),
     questionText: document.querySelector("#question-text"),
     options: document.querySelector("#options"),
@@ -41,6 +46,7 @@
     answers: {},
     currentQuestionIndex: 0,
     randomOrder: false,
+    submitted: false,
   };
 
   function storageKey(examId) {
@@ -63,6 +69,7 @@
       currentQuestionIndex: state.currentQuestionIndex,
       randomOrder: state.randomOrder,
       order: state.order,
+      submitted: state.submitted,
     };
 
     window.localStorage.setItem(storageKey(state.examId), JSON.stringify(payload));
@@ -79,6 +86,7 @@
         currentQuestionIndex: 0,
         randomOrder: false,
         order: fallbackOrder,
+        submitted: false,
       };
     }
 
@@ -91,6 +99,7 @@
           ? Math.min(Math.max(parsed.currentQuestionIndex, 0), exam.questions.length - 1)
           : 0,
         randomOrder: Boolean(parsed.randomOrder),
+        submitted: Boolean(parsed.submitted),
         order:
           storedOrder.length === exam.questions.length
             ? storedOrder
@@ -104,6 +113,7 @@
         currentQuestionIndex: 0,
         randomOrder: false,
         order: fallbackOrder,
+        submitted: false,
       };
     }
   }
@@ -116,18 +126,35 @@
     return items;
   }
 
+  function getAnswerForQuestion(question) {
+    return state.answers[question.id] || null;
+  }
+
+  function isAnswerCorrect(question, answer) {
+    return Boolean(answer && answer.selectedOption === question.correctOption);
+  }
+
   function getCounts() {
     const exam = getExam(state.examId);
+    let answered = 0;
     let correct = 0;
     let incorrect = 0;
+    let unanswered = 0;
 
     exam.questions.forEach((question) => {
-      const answer = state.answers[question.id];
+      const answer = getAnswerForQuestion(question);
       if (!answer) {
+        unanswered += 1;
         return;
       }
 
-      if (answer.isCorrect) {
+      answered += 1;
+
+      if (!state.submitted) {
+        return;
+      }
+
+      if (isAnswerCorrect(question, answer)) {
         correct += 1;
       } else {
         incorrect += 1;
@@ -135,9 +162,10 @@
     });
 
     return {
+      answered,
       correct,
       incorrect,
-      pending: exam.questions.length - correct - incorrect,
+      pending: unanswered,
     };
   }
 
@@ -176,7 +204,7 @@
   }
 
   function setFeedback(question, answer) {
-    if (!answer) {
+    if (!state.submitted) {
       elements.feedback.hidden = true;
       elements.feedback.className = "feedback";
       elements.feedbackLabel.textContent = "";
@@ -184,7 +212,15 @@
       return;
     }
 
-    const isCorrect = answer.isCorrect;
+    if (!answer) {
+      elements.feedback.hidden = false;
+      elements.feedback.className = "feedback is-pending";
+      elements.feedbackLabel.textContent = "Sin responder";
+      elements.feedbackText.textContent = "No seleccionaste ninguna opción en esta pregunta.";
+      return;
+    }
+
+    const isCorrect = isAnswerCorrect(question, answer);
 
     elements.feedback.hidden = false;
     elements.feedback.className = `feedback ${isCorrect ? "is-correct" : "is-incorrect"}`;
@@ -214,7 +250,13 @@
       }
 
       if (answer) {
-        button.classList.add(answer.isCorrect ? "is-correct" : "is-incorrect");
+        if (state.submitted) {
+          button.classList.add(isAnswerCorrect(question, answer) ? "is-correct" : "is-incorrect");
+        } else {
+          button.classList.add("is-answered");
+        }
+      } else if (state.submitted) {
+        button.classList.add("is-pending");
       }
 
       button.addEventListener("click", () => {
@@ -229,13 +271,14 @@
   }
 
   function renderOptions(question) {
-    const savedAnswer = state.answers[question.id];
+    const savedAnswer = getAnswerForQuestion(question);
     elements.options.innerHTML = "";
 
     question.options.forEach((option) => {
       const button = document.createElement("button");
       const optionSelected = savedAnswer && savedAnswer.selectedOption === option.id;
       const isCorrectOption = option.id === question.correctOption;
+      const showCorrection = state.submitted;
 
       button.type = "button";
       button.className = "option";
@@ -244,26 +287,26 @@
         <span class="option__text">${option.text}</span>
       `;
 
-      if (savedAnswer) {
+      if (optionSelected) {
+        button.classList.add("is-selected");
+      }
+
+      if (showCorrection) {
         button.disabled = true;
-        if (optionSelected) {
-          button.classList.add("is-selected");
-        }
         if (isCorrectOption) {
           button.classList.add("is-correct");
-        } else if (optionSelected && !savedAnswer.isCorrect) {
+        } else if (optionSelected) {
           button.classList.add("is-incorrect");
         }
       }
 
       button.addEventListener("click", () => {
-        if (state.answers[question.id]) {
+        if (state.submitted) {
           return;
         }
 
         state.answers[question.id] = {
           selectedOption: option.id,
-          isCorrect: option.id === question.correctOption,
           answeredAt: new Date().toISOString(),
         };
         saveProgress();
@@ -277,21 +320,29 @@
   function renderStats() {
     const exam = getExam(state.examId);
     const counts = getCounts();
-    const answered = counts.correct + counts.incorrect;
-    const progress = Math.round((answered / exam.questions.length) * 100) || 0;
+    const progress = Math.round((counts.answered / exam.questions.length) * 100) || 0;
 
     elements.statCurrent.textContent = `${state.currentQuestionIndex + 1} / ${exam.questions.length}`;
-    elements.statCorrect.textContent = counts.correct;
-    elements.statIncorrect.textContent = counts.incorrect;
+    elements.statCorrectLabel.textContent = state.submitted ? "Aciertos" : "Respondidas";
+    elements.statIncorrectLabel.textContent = state.submitted ? "Fallos" : "Estado";
+    elements.statPendingLabel.textContent = "Pendientes";
+    elements.statCorrect.textContent = state.submitted ? counts.correct : counts.answered;
+    elements.statIncorrect.textContent = state.submitted ? counts.incorrect : "Abierto";
     elements.statPending.textContent = counts.pending;
     elements.progressLabel.textContent = `${progress}%`;
     elements.progressFill.style.width = `${progress}%`;
+    elements.questionMapHint.textContent = state.submitted
+      ? "Ver resultado por pregunta"
+      : "Toca para revisar antes de finalizar";
+    elements.finishExam.disabled = state.submitted;
+    elements.finishExam.textContent = state.submitted ? "Examen finalizado" : "Finalizar examen";
 
-    if (counts.pending === 0) {
+    if (state.submitted) {
       const result = calculateScore(exam, counts);
       elements.scoreCard.hidden = false;
       elements.scoreValue.textContent = `${formatScore(result.score)} / 10`;
       elements.scoreDetail.textContent =
+        `Aciertos: ${counts.correct} · Fallos: ${counts.incorrect} · Sin responder: ${counts.pending}. ` +
         `Aciertos netos: ${formatScore(result.penalizedCorrect)} de ${exam.questions.length} ` +
         `(cada 3 fallos restan 1 acierto).`;
       return;
@@ -319,7 +370,7 @@
   function render() {
     const exam = getExam(state.examId);
     const question = getQuestionByOrderIndex(state.currentQuestionIndex);
-    const answer = state.answers[question.id];
+    const answer = getAnswerForQuestion(question);
 
     elements.examTitle.textContent = exam.title;
     elements.questionCounter.textContent = `Pregunta ${question.number}`;
@@ -338,6 +389,7 @@
     const exam = getExam(state.examId);
     state.answers = {};
     state.currentQuestionIndex = 0;
+    state.submitted = false;
     state.order = state.randomOrder
       ? shuffle(exam.questions.map((question) => question.id))
       : exam.questions.map((question) => question.id);
@@ -352,6 +404,7 @@
     state.currentQuestionIndex = progress.currentQuestionIndex;
     state.randomOrder = progress.randomOrder;
     state.order = progress.order;
+    state.submitted = progress.submitted;
     render();
   }
 
@@ -373,6 +426,17 @@
   elements.resetProgress.addEventListener("click", () => {
     window.localStorage.removeItem(storageKey(state.examId));
     resetExamProgress();
+  });
+
+  elements.finishExam.addEventListener("click", () => {
+    if (state.submitted) {
+      return;
+    }
+
+    state.submitted = true;
+    saveProgress();
+    render();
+    scrollToQuestionStart();
   });
 
   elements.prevQuestion.addEventListener("click", () => {

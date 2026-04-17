@@ -6,7 +6,7 @@
     <title>Test Oposición</title>
     <meta
       name="description"
-      content="Aplicación web responsive para practicar test de oposición con corrección inmediata."
+      content="Aplicación web responsive para practicar test de oposición con revisión final tipo examen."
     />
     <link rel="stylesheet" href="./styles.css" />
   </head>
@@ -17,7 +17,7 @@
           <p class="eyebrow">Preparación de oposición</p>
           <h1>Entrenamiento de test</h1>
           <p class="topbar__copy">
-            Responde con calma, corrige al instante y mantén el foco en una pregunta cada vez.
+            Responde, revisa tus respuestas y corrige al final cuando decidas cerrar el examen.
           </p>
         </div>
 
@@ -78,15 +78,15 @@
               <dd id="stat-current">0 / 0</dd>
             </div>
             <div class="stat">
-              <dt>Aciertos</dt>
+              <dt id="stat-correct-label">Aciertos</dt>
               <dd id="stat-correct">0</dd>
             </div>
             <div class="stat">
-              <dt>Fallos</dt>
+              <dt id="stat-incorrect-label">Fallos</dt>
               <dd id="stat-incorrect">0</dd>
             </div>
             <div class="stat">
-              <dt>Pendientes</dt>
+              <dt id="stat-pending-label">Pendientes</dt>
               <dd id="stat-pending">0</dd>
             </div>
           </dl>
@@ -107,10 +107,16 @@
             <p id="score-detail" class="score-card__detail"></p>
           </section>
 
+          <div class="summary-actions">
+            <button id="finish-exam" class="button button--full" type="button">
+              Finalizar examen
+            </button>
+          </div>
+
           <nav class="question-map" aria-label="Mapa de preguntas">
             <div class="question-map__header">
               <span>Mapa de preguntas</span>
-              <span class="question-map__hint">Toca para saltar</span>
+              <span id="question-map-hint" class="question-map__hint">Toca para saltar</span>
             </div>
             <div id="question-map" class="question-map__grid"></div>
           </nav>

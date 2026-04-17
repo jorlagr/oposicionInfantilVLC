@@ -279,6 +279,10 @@ select {
   color: var(--muted);
 }
 
+.summary-actions {
+  margin-top: 1rem;
+}
+
 .progress-block__meta {
   display: flex;
   justify-content: space-between;
@@ -355,6 +359,12 @@ select {
   background: rgba(15, 118, 110, 0.08);
 }
 
+.question-dot.is-answered {
+  color: var(--accent-strong);
+  border-color: rgba(15, 118, 110, 0.18);
+  background: rgba(15, 118, 110, 0.04);
+}
+
 .question-dot.is-correct {
   color: var(--success);
   border-color: rgba(21, 128, 61, 0.22);
@@ -365,6 +375,12 @@ select {
   color: var(--error);
   border-color: rgba(180, 35, 24, 0.18);
   background: rgba(180, 35, 24, 0.08);
+}
+
+.question-dot.is-pending {
+  color: var(--muted-soft);
+  border-color: rgba(100, 116, 139, 0.2);
+  background: rgba(148, 163, 184, 0.08);
 }
 
 .options {
@@ -419,6 +435,7 @@ select {
 .option.is-selected {
   border-color: rgba(15, 118, 110, 0.4);
   background: rgba(15, 118, 110, 0.04);
+  box-shadow: var(--shadow-sm);
 }
 
 .option.is-correct {
@@ -451,6 +468,11 @@ select {
 .feedback.is-incorrect {
   border-color: rgba(180, 35, 24, 0.16);
   background: var(--error-bg);
+}
+
+.feedback.is-pending {
+  border-color: rgba(100, 116, 139, 0.18);
+  background: rgba(148, 163, 184, 0.08);
 }
 
 .feedback__label {
@@ -488,6 +510,10 @@ select {
   border-color: var(--border);
   background: var(--surface);
   color: var(--text);
+}
+
+.button--full {
+  width: 100%;
 }
 
 .button:disabled {
