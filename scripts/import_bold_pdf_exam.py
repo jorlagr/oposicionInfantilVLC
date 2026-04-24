@@ -35,6 +35,10 @@ def has_meaningful_text(text: str) -> bool:
     return bool(re.search(r"[A-Za-zÁÉÍÓÚÜÑáéíóúüñ0-9]", text))
 
 
+def clean_option_text(text: str) -> str:
+    return re.sub(r"^[.)-]+\s*", "", text).strip()
+
+
 def extract_lines(pdf_path: Path) -> list[dict]:
     doc = fitz.open(pdf_path)
     lines = []
@@ -62,9 +66,6 @@ def extract_lines(pdf_path: Path) -> list[dict]:
                 if not text:
                     continue
 
-                if text.isdigit():
-                    continue
-
                 if any(text.startswith(pattern) for pattern in HEADER_PATTERNS):
                     continue
 
@@ -78,13 +79,45 @@ def extract_lines(pdf_path: Path) -> list[dict]:
     return lines
 
 
-def build_exam_from_pdf(pdf_path: Path, exam_id: str, title: str | None) -> dict:
+def parse_option_line(
+    text: str,
+    current_question_number: int | None,
+    option_count: int,
+    max_options: int,
+    option_style: str,
+) -> tuple[str, str] | None:
+    if option_style in {"alpha", "auto"}:
+        alpha_match = re.match(r"^([a-dA-D])(?:[.)-]|\s)\s*(.*)$", text)
+        if alpha_match:
+            return alpha_match.group(1).lower(), clean_option_text(alpha_match.group(2))
+
+    if option_style == "alpha" or current_question_number is None:
+        return None
+
+    numeric_match = re.match(r"^(\d+)\s*[.)-]?\s*(.*)$", text)
+    if not numeric_match:
+        return None
+
+    expected_index = option_count + 1
+    if int(numeric_match.group(1)) != expected_index or expected_index > max_options:
+        return None
+
+    option_id = chr(ord("a") + option_count)
+    return option_id, clean_option_text(numeric_match.group(2))
+
+
+def build_exam_from_pdf(
+    pdf_path: Path,
+    exam_id: str,
+    title: str | None,
+    max_options: int,
+    option_style: str,
+) -> dict:
     lines = extract_lines(pdf_path)
     if not lines:
         raise ValueError(f"No se ha podido extraer texto de {pdf_path.name}.")
 
-    question_pattern = re.compile(r"^(\d+)\.\s*(.+)$")
-    option_pattern = re.compile(r"^([a-dA-D])(?:[.)-]|\s)\s*(.+)$")
+    question_pattern = re.compile(r"^(\d+)\s*[.)-]+\s*(.+)$")
 
     questions = []
     current_question_number = None
@@ -96,9 +129,9 @@ def build_exam_from_pdf(pdf_path: Path, exam_id: str, title: str | None) -> dict
         if current_question_number is None:
             return
 
-        if len(current_options) != 4:
+        if len(current_options) not in {3, 4}:
             raise ValueError(
-                f"La pregunta {current_question_number} no tiene 4 opciones en {pdf_path.name}."
+                f"La pregunta {current_question_number} no tiene un número válido de opciones en {pdf_path.name}."
             )
 
         correct_options = [option["id"] for option in current_options if option["isCorrect"]]
@@ -128,23 +161,39 @@ def build_exam_from_pdf(pdf_path: Path, exam_id: str, title: str | None) -> dict
         current_options = []
 
     for line in lines:
-        question_match = question_pattern.match(line["text"])
-        if question_match:
-            flush_question()
-            current_question_number = int(question_match.group(1))
-            current_question_parts = [question_match.group(2)]
-            continue
+        if line["text"].isdigit():
+            numeric_value = int(line["text"])
+            expected_option = (
+                current_question_number is not None
+                and numeric_value == len(current_options) + 1
+                and numeric_value <= max_options
+            )
+            if not expected_option:
+                continue
 
-        option_match = option_pattern.match(line["text"])
-        if option_match and current_question_number is not None:
+        option_data = parse_option_line(
+            line["text"],
+            current_question_number=current_question_number,
+            option_count=len(current_options),
+            max_options=max_options,
+            option_style=option_style,
+        )
+        if option_data is not None:
             current_options.append(
                 {
-                    "id": option_match.group(1).lower(),
-                    "text": option_match.group(2),
+                    "id": option_data[0],
+                    "text": option_data[1],
                     "isCorrect": line["bold"],
                 }
             )
             continue
+
+        question_match = question_pattern.match(line["text"])
+        if question_match:
+          flush_question()
+          current_question_number = int(question_match.group(1))
+          current_question_parts = [question_match.group(2)]
+          continue
 
         if current_options:
             current_options[-1]["text"] = f"{current_options[-1]['text']} {line['text']}"
@@ -205,6 +254,8 @@ def main() -> None:
     parser.add_argument("--output", required=True, type=Path)
     parser.add_argument("--exam-id")
     parser.add_argument("--title")
+    parser.add_argument("--max-options", type=int, default=4)
+    parser.add_argument("--option-style", choices=["auto", "alpha", "numeric"], default="auto")
     parser.add_argument(
         "--merge",
         action="store_true",
@@ -213,7 +264,13 @@ def main() -> None:
     args = parser.parse_args()
 
     exam_id = args.exam_id or slugify(args.pdf.stem)
-    exam = build_exam_from_pdf(args.pdf, exam_id=exam_id, title=args.title)
+    exam = build_exam_from_pdf(
+        args.pdf,
+        exam_id=exam_id,
+        title=args.title,
+        max_options=args.max_options,
+        option_style=args.option_style,
+    )
 
     payload = {"exams": [exam]}
     if args.merge:

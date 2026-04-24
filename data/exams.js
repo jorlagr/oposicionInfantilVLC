@@ -612,6 +612,6281 @@ window.TEST_APP_DATA = {
       ]
     },
     {
+      "id": "ivap-tema-01",
+      "title": "IVAP · Tema 01 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 1.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 1.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Según la Ley Orgánica 2/2006, ¿cuál de los siguientes es un principio de la educación?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El pleno desarrollo de la personalidad y de las capacidades del alumnado."
+            },
+            {
+              "id": "b",
+              "text": "La educación en la responsabilidad individual y en el mérito y esfuerzo personal."
+            },
+            {
+              "id": "c",
+              "text": "La capacitación para el ejercicio de actividades profesionales, de cuidados y de colaboración social."
+            },
+            {
+              "id": "d",
+              "text": "El reconocimiento del papel que corresponde a los padres, madres y tutores legales como primeros"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Qué son las situaciones de aprendizaje?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desempeños que la niña o el niño tiene que poder desplegar en actividades o en situaciones en las cuales se requieren los saberes básicos de cada área."
+            },
+            {
+              "id": "b",
+              "text": "Conocimientos, destrezas y actitudes que constituyen los contenidos propios de un área y cuyo aprendizaje es necesario para la adquisición de las competencias específicas."
+            },
+            {
+              "id": "c",
+              "text": "Contextos que implican el despliegue por parte de la niña o niño de actuaciones asociadas a competencias"
+            },
+            {
+              "id": "d",
+              "text": "Conjunto de estrategias, procedimientos, técnicas y acciones organizadas planificadas por el equipo educativo que tienen la finalidad de facilitar posibilidades de aprendizaje del niño o la niña."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "De acuerdo con el Decreto 253/2019, ¿cuál de los siguientes es un órgano colegiado de gobierno?",
+          "options": [
+            {
+              "id": "a",
+              "text": "La dirección del centro."
+            },
+            {
+              "id": "b",
+              "text": "El consejo escolar."
+            },
+            {
+              "id": "c",
+              "text": "La coordinación de igualdad y convivencia."
+            },
+            {
+              "id": "d",
+              "text": "La comisión de coordinación pedagógica."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "Según la Ley Orgánica 2/2006, ¿cuál de los siguientes es un fin de la educación?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El esfuerzo individual y la motivación del alumnado."
+            },
+            {
+              "id": "b",
+              "text": "El fomento y la promoción de la investigación, la experimentación y la innovación educativa."
+            },
+            {
+              "id": "c",
+              "text": "La capacitación para la comunicación en lengua oficial y cooficial, si la hubiere, y en una o más"
+            },
+            {
+              "id": "d",
+              "text": "La educación para la transición ecológica con criterios de justicia social como contribución a la sostenibilidad ambiental, social y económica."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Señala la respuesta correcta:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La Educación Infantil constituye la etapa educativa con identidad propia que atiende niños y niñas desde que se incorporan al sistema educativo hasta que tienen tres años y tiene carácter voluntario."
+            },
+            {
+              "id": "b",
+              "text": "La Educación Infantil constituye la etapa educativa con identidad propia que atiende niños y niñas desde"
+            },
+            {
+              "id": "c",
+              "text": "La Educación Infantil constituye la etapa educativa con identidad propia que atiende niños y niñas desde que se incorporan al sistema educativo hasta que tienen tres años y tiene carácter obligatorio."
+            },
+            {
+              "id": "d",
+              "text": "La Educación Infantil constituye la etapa educativa con identidad propia que atiende niños y niñas desde que se incorporan al sistema educativo hasta que tienen seis años y tiene carácter obligatorio."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "De acuerdo con el Decreto 100/2022, ¿cuál de las siguientes NO es un área de la Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Conocimiento en armonía."
+            },
+            {
+              "id": "b",
+              "text": "Descubrimiento y exploración del entorno."
+            },
+            {
+              "id": "c",
+              "text": "Comunicación y representación de la realidad."
+            },
+            {
+              "id": "d",
+              "text": "Exploración del medio físico, natural, social y cultural."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Cuál de las siguientes afirmaciones sobre el periodo de acogida es correcta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El periodo de acogida tiene una duración fija que determina la Administración educativa."
+            },
+            {
+              "id": "b",
+              "text": "Durante el periodo de acogida no se aconseja la presencia de familiares, especialmente en los primeros días."
+            },
+            {
+              "id": "c",
+              "text": "Durante el periodo de acogida, el tiempo de estancia del niño o niña en el centro puede ser"
+            },
+            {
+              "id": "d",
+              "text": "Es importante, durante el periodo de acogida, cambiar de espacio cada día con la finalidad que el niño o niña se familiarice con todos los espacios del centro."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Cuáles son las herramientas básicas de evaluación en Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A. La observación y la documentación pedagógica."
+            },
+            {
+              "id": "b",
+              "text": "El registro y la documentación pedagógica."
+            },
+            {
+              "id": "c",
+              "text": "La observación y la reflexión pedagógica."
+            },
+            {
+              "id": "d",
+              "text": "El registro y la reflexión pedagógica."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿Cuál de las siguientes NO es una función de la tutora o tutor de una escuela de educación infantil de primer ciclo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Diseñar y programar el plan de acción tutorial del centro, en colaboración con la"
+            },
+            {
+              "id": "b",
+              "text": "Coordinar, en colaboración con la dirección del centro, el proceso de evaluación del alumnado de su grupo."
+            },
+            {
+              "id": "c",
+              "text": "Fomentar la cooperación educativa entre el centro y los padres y madres o tutores legales del alumnado."
+            },
+            {
+              "id": "d",
+              "text": "Facilitar la integración del alumnado en el grupo y fomentar el desarrollo de actitudes participativas."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Qué enseñanzas constituyen la educación básica en el sistema educativo español?",
+          "options": [
+            {
+              "id": "a",
+              "text": "La educación infantil, la educación primaria y la educación secundaria obligatoria."
+            },
+            {
+              "id": "b",
+              "text": "La educación infantil, la educación primaria y los ciclos formativos de grado básico."
+            },
+            {
+              "id": "c",
+              "text": "La educación primaria, la educación secundaria obligatoria y el bachillerato."
+            },
+            {
+              "id": "d",
+              "text": "La educación primaria, la educación secundaria obligatoria y los ciclos formativos de grado"
+            }
+          ],
+          "correctOption": "d"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-02",
+      "title": "IVAP · Tema 02 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 2.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 2.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Cuál es el ámbito de aplicación del Decreto 104/2018, de 27 de julio, del Consell, por el que se desarrollan los principios de equidad e inclusión educativa?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Todos los centros educativos no universitarios del estado español."
+            },
+            {
+              "id": "b",
+              "text": "Los centros educativos no universitarios sostenidos con fondos públicos del estado español."
+            },
+            {
+              "id": "c",
+              "text": "Todos los centros educativos no universitarios de la Comunitat Valenciana."
+            },
+            {
+              "id": "d",
+              "text": "Los centros educativos no universitarios sostenidos con fondos públicos de la Comunitat"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "Señala la afirmación correcta:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Todo el alumnado tiene derecho a participar en las actividades del grupo y del centro."
+            },
+            {
+              "id": "b",
+              "text": "El alumnado con necesidades educativas especiales no podrá participar en las actividades del centro sin la supervisión de su madre, padre o tutor legal."
+            },
+            {
+              "id": "c",
+              "text": "La comunicación de la información necesaria, así como el asesoramiento individualizado a las familias se realizará a través del consejo escolar de centro y del consejo escolar municipal."
+            },
+            {
+              "id": "d",
+              "text": "La conselleria competente en materia de educación debe planificar y adecuar las actividades del grupo y del centro para fomentar la participación del alumnado."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Qué nivel de respuesta educativa para la inclusión se dirige a todo el alumnado del grupo-clase?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nivel I."
+            },
+            {
+              "id": "b",
+              "text": "Nivel II."
+            },
+            {
+              "id": "c",
+              "text": "Nivel III."
+            },
+            {
+              "id": "d",
+              "text": "Nivel IV."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "Según el Decreto 104/2018, de 27 de julio, del Consell, por el que se desarrollan los principios de equidad y de inclusión en el sistema educativo valenciano, las líneas generales de actuación que caracterizan el modelo de escuela inclusiva son:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La incorporación de los principios estadísticos en su organización y, como consecuencia, en la accesibilidad y utilización de los espacios y materiales, en la distribución de los tiempos y de los equipos docentes, y en los agrupamientos del alumnado y la gestión administrativa."
+            },
+            {
+              "id": "b",
+              "text": "Garantizar y asegurar la presencia en todos los procesos de coordinación, planificación e intervención, de la figura del agente cooperador que intervendrá en los diferentes ámbitos, así como en toda la comunidad educativa."
+            },
+            {
+              "id": "c",
+              "text": "La identificación y la eliminación de barreras en el contexto, la movilización de recursos para dar respuesta a la"
+            },
+            {
+              "id": "d",
+              "text": "La estructura y el contenido del currículo deben responder a unos principios que tengan presente únicamente al alumnado con problemas de identificación."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Cuál de los siguientes NO es uno de los principios generales sobre los que se basa la educación inclusiva según el Decreto 104/2018, de 27 de julio, del Consell, por el que se desarrollan los principios de equidad y de inclusión en el sistema educativo valenciano?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Parte de la base de que cada alumna y cada alumno tiene necesidades únicas y la consideración de la diversidad como un valor positivo que mejora y enriquece el proceso de aprendizaje y enseñanza."
+            },
+            {
+              "id": "b",
+              "text": "Toma, como modelo educativo de referencia, el “modelo cooperativista de Scheuwen”."
+            },
+            {
+              "id": "c",
+              "text": "Supone garantizar la igualdad de oportunidades en el acceso, la participación y el aprendizaje del alumnado en contextos comunes."
+            },
+            {
+              "id": "d",
+              "text": "Tiene como propósito dar una respuesta educativa que favorezca el máximo desarrollo de todo el alumnado, y elimine todas las formas de exclusión, desigualdad y vulnerabilidad."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "En el artículo 14 del Decreto 104/2018, de 27 de julio, del Consell, por el que se desarrollan los principios de equidad y de inclusión en el sistema educativo, se habla de las medidas de respuesta educativa para la inclusión, ¿cuál de las siguientes afirmaciones respecto a las mismas sería correcta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Se clasifican en tres tipos de medidas: punitivas, asertivas y modeladoras."
+            },
+            {
+              "id": "b",
+              "text": "Se han de plantear desde una perspectiva individual y personalista."
+            },
+            {
+              "id": "c",
+              "text": "Contribuyen a la reindividualización del proceso de aprendizaje."
+            },
+            {
+              "id": "d",
+              "text": "Constituyen todas las actuaciones educativas planificadas con la finalidad de eliminar las barreras identificadas"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Qué nivel de respuesta educativa para la inclusión se dirige al alumnado que requiere una respuesta diferenciada, individualmente o en grupo, que impliquen apoyos adicionales ordinarios?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nivel I."
+            },
+            {
+              "id": "b",
+              "text": "Nivel II."
+            },
+            {
+              "id": "c",
+              "text": "Nivel III."
+            },
+            {
+              "id": "d",
+              "text": "Nivel IV."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Qué nivel de respuesta educativa para la inclusión se dirige al alumnado con necesidades específicas de apoyo educativo que requieren una respuesta personalizada e individualizada de carácter extraordinario que implique apoyos especializados adicionales?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nivel I."
+            },
+            {
+              "id": "b",
+              "text": "Nivel II."
+            },
+            {
+              "id": "c",
+              "text": "Nivel III."
+            },
+            {
+              "id": "d",
+              "text": "Nivel IV."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Señale la afirmación INCORRECTA:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Los centros educativos deben organizar las actuaciones que hagan efectiva su apertura al entorno, que comporten la participación en acciones de ámbito comunitario y el aprovechamiento de los recursos a su alcance para el despliegue de sus proyectos educativos."
+            },
+            {
+              "id": "b",
+              "text": "Dentro del ámbito de los consejos escolares municipales se elaborarán planes de entorno que promuevan la igualdad de oportunidades para todas las personas."
+            },
+            {
+              "id": "c",
+              "text": "Las consellerias de sanidad e igualdad y servicios sociales impulsarán programas de ámbito comunitario que"
+            },
+            {
+              "id": "d",
+              "text": "Los centros educativos deben hacer un análisis de los factores del contexto que facilitan o dificultan la inclusión, con el objeto de articular las medidas necesarias que permitan eliminar las barreras identificadas que limitan el acceso, la participación y el aprendizaje."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Qué nivel de respuesta educativa para la inclusión se dirige a toda la comunidad educativa y a las relaciones del centro con el entorno sociocomunitario?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nivel I."
+            },
+            {
+              "id": "b",
+              "text": "Nivel II."
+            },
+            {
+              "id": "c",
+              "text": "Nivel III."
+            },
+            {
+              "id": "d",
+              "text": "Nivel IV."
+            }
+          ],
+          "correctOption": "a"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-03",
+      "title": "IVAP · Tema 03 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 3.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 3.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Las decisiones sobre la modificación y, si procede, la incorporación de nuevas medidas de respuesta, las tiene que acordar de manera colegiada:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Los agentes externos que trabajan con la alumna o alumno en tiempo extraescolar."
+            },
+            {
+              "id": "b",
+              "text": "El alumnado del grupo-clase donde esté escolarizado el alumno o la alumna."
+            },
+            {
+              "id": "c",
+              "text": "El equipo educativo en las sesiones de evaluación, a propuesta de cualquiera de sus miembros, de la familia o los"
+            },
+            {
+              "id": "d",
+              "text": "El equipo directivo, a propuesta de cualquier miembro del equipo docente, de la familia o los representantes legales o del mismo alumnado, en caso de ser mayor de edad y tener la capacidad civil."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "El enriquecimiento curricular es una medida curricular extraordinaria de nivel III que va dirigida:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Al alumnado deportista de alto rendimiento."
+            },
+            {
+              "id": "b",
+              "text": "Al alumnado que cursa enseñanzas profesionales de música y danza."
+            },
+            {
+              "id": "c",
+              "text": "Al alumnado con necesidades educativas especiales."
+            },
+            {
+              "id": "d",
+              "text": "Al alumnado con altas capacidades."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "El Plan de actuación personalizado (PAP) forma parte de:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El Plan de actuaciones para la mejora (PAM)."
+            },
+            {
+              "id": "b",
+              "text": "El expediente académico del alumnado al que se le aplica."
+            },
+            {
+              "id": "c",
+              "text": "El Proyecto educativo del centro (PEC)."
+            },
+            {
+              "id": "d",
+              "text": "Las programaciones de aula del grupo-clase del alumnado al que se le aplica."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "El Plan de actuación personalizado (PAP) es:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El documento que organiza las medidas de respuesta educativa para garantizar el acceso, la participación y el"
+            },
+            {
+              "id": "b",
+              "text": "La programación de aula publicada por la correspondiente editorial de los libros de texto que se utilizan en un centro educativo."
+            },
+            {
+              "id": "c",
+              "text": "Las circulares que firman las familias o representantes legales a lo largo del curso escolar para autorizar la participación de sus hijas o hijos en las actividades complementarias y extraescolares."
+            },
+            {
+              "id": "d",
+              "text": "Sinónimo de informe sociopsicopedagógico y está coordinado por el equipo de orientación del centro educativo."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Las medidas de respuesta educativa que garantizan una educación inclusiva se organizan en las siguientes dimensiones:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Acceso, participación e igualdad."
+            },
+            {
+              "id": "b",
+              "text": "Acceso, igualdad y aprendizaje."
+            },
+            {
+              "id": "c",
+              "text": "Acceso, aprendizaje y participación."
+            },
+            {
+              "id": "d",
+              "text": "Acceso, participación y flexibilidad."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "El refuerzo pedagógico es una medida individual para el aprendizaje y se corresponde con:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Una respuesta de nivel IV que se aplica en la etapa de Educación Primaria."
+            },
+            {
+              "id": "b",
+              "text": "Una respuesta de nivel III que se aplica en cualquier etapa educativa."
+            },
+            {
+              "id": "c",
+              "text": "Una respuesta de nivel III que se aplica en la etapa de Educación Infantil."
+            },
+            {
+              "id": "d",
+              "text": "Una respuesta de nivel IV que se aplica en cualquier etapa educativa."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "La adaptación curricular significativa individual (ACIS) es una medida curricular extraordinaria de nivel IV que va dirigida:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Al alumnado recién llegado que necesita un programa de enseñanza intensiva de las lenguas oficiales de la Comunitat Valenciana."
+            },
+            {
+              "id": "b",
+              "text": "Al alumnado con necesidades educativas especiales que cursa la enseñanza obligatoria y presenta un"
+            },
+            {
+              "id": "c",
+              "text": "Al alumnado que compagina los estudios de Educación Secundaria Obligatoria o Bachillerato con enseñanzas profesionales de música y danza, a fin de poder flexibilizar sus condiciones temporales y metodológicas."
+            },
+            {
+              "id": "d",
+              "text": "Al alumnado escolarizado en la etapa de Educación Infantil que requiere una atención intensiva respecto a las competencias comunicativas."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Cuándo se evalúa el Plan de actuación personalizado (PAP)?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Semanalmente, en la sesión de tutoría."
+            },
+            {
+              "id": "b",
+              "text": "Mensualmente, en las sesiones del consejo escolar."
+            },
+            {
+              "id": "c",
+              "text": "Trimestralmente, en las sesiones de evaluación."
+            },
+            {
+              "id": "d",
+              "text": "Anualmente, en la sesión de evaluación final."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "La notificación de posibles situaciones de desprotección de menores detectadas desde el ámbito educativo es:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Una medida de participación de nivel III."
+            },
+            {
+              "id": "b",
+              "text": "Una medida de acceso de nivel III."
+            },
+            {
+              "id": "c",
+              "text": "Una medida de participación de nivel IV."
+            },
+            {
+              "id": "d",
+              "text": "Una medida de acceso de nivel IV."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "El Plan de actuación personalizado (PAP) tiene carácter prescriptivo para el alumnado con necesidades específicas de apoyo educativo, cuando se apliquen las siguientes medidas:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Necesidades de transporte y/o comedor escolar, por razones de conciliación familiar."
+            },
+            {
+              "id": "b",
+              "text": "Programas específicos para el alumnado que presenta alteraciones graves de conducta, programas de acompañamiento ante"
+            },
+            {
+              "id": "c",
+              "text": "Ayudas económicas para la provisión de material fungible o informático."
+            },
+            {
+              "id": "d",
+              "text": "Medidas de accesibilidad personalizada con medios comunes."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-04",
+      "title": "IVAP · Tema 04 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 4.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 4.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Qué modelo defiende que el alumno/a no tiene un papel activo en el aprendizaje?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Modelo cognitivo."
+            },
+            {
+              "id": "b",
+              "text": "Modelo social."
+            },
+            {
+              "id": "c",
+              "text": "Modelo ecológico."
+            },
+            {
+              "id": "d",
+              "text": "Modelo conductista."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "La teoría de Vygostky se centra en:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Zona de Desarrollo Próximo."
+            },
+            {
+              "id": "b",
+              "text": "Zona de Desarrollo Lejana."
+            },
+            {
+              "id": "c",
+              "text": "Zona de Acomodamiento."
+            },
+            {
+              "id": "d",
+              "text": "Zona de Aprendizaje Significativo."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Quién fue la persona precursora de la educación sensorial?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Rousseau."
+            },
+            {
+              "id": "b",
+              "text": "Decroly."
+            },
+            {
+              "id": "c",
+              "text": "Montessori."
+            },
+            {
+              "id": "d",
+              "text": "Rosa Agazzi."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Qué proyecto fomenta la colaboración de las familias?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Instalaciones de juego."
+            },
+            {
+              "id": "b",
+              "text": "La casa de los niños."
+            },
+            {
+              "id": "c",
+              "text": "Rincones."
+            },
+            {
+              "id": "d",
+              "text": "Talleres."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Kindergarten fue una escuela creada por:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Montessori."
+            },
+            {
+              "id": "b",
+              "text": "Fröbel."
+            },
+            {
+              "id": "c",
+              "text": "Pestalozzi."
+            },
+            {
+              "id": "d",
+              "text": "Comenio."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué organización se presenta como un sistema de orden?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Talleres."
+            },
+            {
+              "id": "b",
+              "text": "Rincones."
+            },
+            {
+              "id": "c",
+              "text": "Instalaciones de juego."
+            },
+            {
+              "id": "d",
+              "text": "Centros de interés."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Las instalaciones de juego es una creación de:",
+          "options": [
+            {
+              "id": "a",
+              "text": "M. Ortega."
+            },
+            {
+              "id": "b",
+              "text": "J. Abad."
+            },
+            {
+              "id": "c",
+              "text": "Montessori."
+            },
+            {
+              "id": "d",
+              "text": "La casa de los niños."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Quién destaca dentro del modelo cognitivo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Vygostky."
+            },
+            {
+              "id": "b",
+              "text": "Freinet."
+            },
+            {
+              "id": "c",
+              "text": "Piaget."
+            },
+            {
+              "id": "d",
+              "text": "Rosa Sensat."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "El método pedagógico de los centros de interés fue creado por:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Decroly."
+            },
+            {
+              "id": "b",
+              "text": "Freinet."
+            },
+            {
+              "id": "c",
+              "text": "Piaget."
+            },
+            {
+              "id": "d",
+              "text": "Vygostky."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "El rechazo por modelos basados en procesos memorísticos es defendido por:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Rosa Sensat."
+            },
+            {
+              "id": "b",
+              "text": "Piaget."
+            },
+            {
+              "id": "c",
+              "text": "Javier Abad."
+            },
+            {
+              "id": "d",
+              "text": "Rousseau."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-05",
+      "title": "IVAP · Tema 05 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 5.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 5.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Piaget estudia los estadios del desarrollo de la inteligencia, pero, ¿cuáles pertenecen a la etapa de la Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sensiomotor y operaciones concretas."
+            },
+            {
+              "id": "b",
+              "text": "Operaciones concretas y operaciones formales."
+            },
+            {
+              "id": "c",
+              "text": "Preoperacional y sensiomotor."
+            },
+            {
+              "id": "d",
+              "text": "Sensiomotor y operaciones formales."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Cuál de las siguientes afirmaciones es correcta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El desarrollo de la conciencia del yo es un desarrollo inmediato que aparece nada más nacer."
+            },
+            {
+              "id": "b",
+              "text": "El desarrollo emocional a veces se relaciona con el desarrollo social y lo hace en el momento en el que el niño/a empieza a ir a la guardería."
+            },
+            {
+              "id": "c",
+              "text": "El desarrollo emocional y social está íntimamente ligado a la construcción de la personalidad."
+            },
+            {
+              "id": "d",
+              "text": "El autoconcepto positivo implica conocer de la manera más subjetiva posible la propia realidad."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿En qué subestadio empieza la reacción circular secundaria?",
+          "options": [
+            {
+              "id": "a",
+              "text": "2."
+            },
+            {
+              "id": "b",
+              "text": "3."
+            },
+            {
+              "id": "c",
+              "text": "4."
+            },
+            {
+              "id": "d",
+              "text": "5."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Qué fases se encuentran en la teoría del aprendizaje de Vigotsky?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Nivel interpsicológico y nivel intrapsicológivo."
+            },
+            {
+              "id": "b",
+              "text": "Aprendizaje por descubrimiento y aprendizaje significativo."
+            },
+            {
+              "id": "c",
+              "text": "Aprendizaje biológico y aprendizaje social."
+            },
+            {
+              "id": "d",
+              "text": "Nivel adaptativo y nivel interpersonal."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Qué principios metodológicos NO tenemos que tener en cuenta como base de nuestra intervención educativa?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Principio de individualización."
+            },
+            {
+              "id": "b",
+              "text": "Trabajar en la zona de desarrollo próximo."
+            },
+            {
+              "id": "c",
+              "text": "Asegurar la construcción de aprendizajes significativos."
+            },
+            {
+              "id": "d",
+              "text": "Intentar que los alumnos/as no aprendan por sí solos, siempre a través de un aprendizaje guiado."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué etapa NO corresponde a la evolución de la conciencia del yo del Dr. Jerónimo de Moragas?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Prenatal."
+            },
+            {
+              "id": "b",
+              "text": "Egocósmica."
+            },
+            {
+              "id": "c",
+              "text": "Egonométrica."
+            },
+            {
+              "id": "d",
+              "text": "Proyección."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Señala cuál de las siguientes afirmaciones es correcta del estadio sensiomotor:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El objeto es concebido como inmóvil e incoloro."
+            },
+            {
+              "id": "b",
+              "text": "El niño/a sólo imita al adulto cuando la conducta a imitar existe previamente en su repertorio."
+            },
+            {
+              "id": "c",
+              "text": "El niño es capaz de anticiparse a lo que va a ocurrir en el subestadio 6, y no antes."
+            },
+            {
+              "id": "d",
+              "text": "El fortalecimiento del esquema motor no es necesario para el dominio y consolidación de los esquemas mentales."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿De qué edad a qué edad corresponde la etapa de Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "0-3."
+            },
+            {
+              "id": "b",
+              "text": "0-4."
+            },
+            {
+              "id": "c",
+              "text": "1-6."
+            },
+            {
+              "id": "d",
+              "text": "0-6."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿Qué aportación de la teoría de Ausubel no es correcta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El material aprendido de forma significativa es más sensible a las interferencias a corto plazo y mucho menos resistente al olvido."
+            },
+            {
+              "id": "b",
+              "text": "Es muy importante que el alumno tenga una actitud dispuesta para el aprendizaje, que este motivado para aprender."
+            },
+            {
+              "id": "c",
+              "text": "Si no existe en la mente el conocimiento al que enganchar el nuevo, entonces hay que crearlo."
+            },
+            {
+              "id": "d",
+              "text": "El factor más importante que influye en el aprendizaje es lo que el alumno ya sabe, sus conocimientos previos."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Qué característica NO es propia del estadio sensiomotor?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrolla la intencionalidad."
+            },
+            {
+              "id": "b",
+              "text": "Afianza la función simbólica."
+            },
+            {
+              "id": "c",
+              "text": "Aparece la primera reacción circular primaria."
+            },
+            {
+              "id": "d",
+              "text": "Se subdivide en 6 subestadios."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-06",
+      "title": "IVAP · Tema 06 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 6.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 6.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Señala la afirmación correcta:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La etapa del garabato comienza entorno a los 18 meses."
+            },
+            {
+              "id": "b",
+              "text": "En la etapa del garabato con nombre existe una semejanza unívoca entre la representación y el objeto representado."
+            },
+            {
+              "id": "c",
+              "text": "La etapa del garabato sin control tiene una finalidad representativa."
+            },
+            {
+              "id": "d",
+              "text": "En la etapa del garabato controlado todas las figuras representadas son abiertas."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "En los primeros meses de vida del niño o de la niña:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Aparece el canto silábico."
+            },
+            {
+              "id": "b",
+              "text": "Tiene preferencia en el sonido de la voz."
+            },
+            {
+              "id": "c",
+              "text": "Es capaz de reproducir canciones infantiles enteras."
+            },
+            {
+              "id": "d",
+              "text": "Siente curiosidad por los objetos de percusión."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Cuáles son las cualidades del sonido?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Altura, intensidad, duración y timbre."
+            },
+            {
+              "id": "b",
+              "text": "Sonoridad, intensidad, duración y timbre."
+            },
+            {
+              "id": "c",
+              "text": "Altura, volumen, duración y timbre."
+            },
+            {
+              "id": "d",
+              "text": "Sonoridad, volumen, duración y timbre."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Cómo se puede evitar la reproducción de estereotipos en la educación plástica en Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sugiriendo temas de dibujo no convencionales."
+            },
+            {
+              "id": "b",
+              "text": "Rellenando dibujos con colores preestablecidos."
+            },
+            {
+              "id": "c",
+              "text": "Utilizando como modelo dibujos animados."
+            },
+            {
+              "id": "d",
+              "text": "Animando al alumnado cuando represente de forma exacta un objeto."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Las primeras actividades plásticas y gráficas del alumnado de Educación Infantil obedecen a:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La intencionalidad representativa."
+            },
+            {
+              "id": "b",
+              "text": "La maduración neurofisiológica."
+            },
+            {
+              "id": "c",
+              "text": "El placer y el recreo que suscita su experimentación."
+            },
+            {
+              "id": "d",
+              "text": "La ejercitación de la capacidad motriz."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Cuáles son los elementos básicos del lenguaje plástico?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El color, la línea, el punto y el volumen."
+            },
+            {
+              "id": "b",
+              "text": "El color, la línea, la forma y el volumen."
+            },
+            {
+              "id": "c",
+              "text": "El color, la curva, el punto y el volumen."
+            },
+            {
+              "id": "d",
+              "text": "El color, la curva, la forma y el volumen."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "El uso del color se comienza por:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Azar, gustos personales, novedad,..."
+            },
+            {
+              "id": "b",
+              "text": "La utilización de colores cálidos."
+            },
+            {
+              "id": "c",
+              "text": "La utilización de colores fríos."
+            },
+            {
+              "id": "d",
+              "text": "La correlación entre el color y la realidad."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "Los gestos proyectivos:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Aparecen alrededor de los 2 años."
+            },
+            {
+              "id": "b",
+              "text": "Consisten en gritos, sonrisas y diferentes movimientos reflejos."
+            },
+            {
+              "id": "c",
+              "text": "Son gestos de intervención como los ruegos, preguntas o aclaraciones."
+            },
+            {
+              "id": "d",
+              "text": "Están relacionados con las emociones de miedo, celos, alegría, etc."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Señala la afirmación correcta:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La expresión corporal ayuda al alumnado en la formación del concepto de sí mismo."
+            },
+            {
+              "id": "b",
+              "text": "La expresión corporal puede limitar la expresión de sentimientos y vivencias propias."
+            },
+            {
+              "id": "c",
+              "text": "La expresión corporal dificulta la adquisición del control del propio cuerpo."
+            },
+            {
+              "id": "d",
+              "text": "La expresión corporal no requiere de la consciencia y de la atención del niño o la niña."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "Los juegos con palabras, frases o de imitación de sonidos de nuestro entorno son actividades de:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Expresión del movimiento."
+            },
+            {
+              "id": "b",
+              "text": "Expresión instrumental."
+            },
+            {
+              "id": "c",
+              "text": "Expresión corporal."
+            },
+            {
+              "id": "d",
+              "text": "Expresión vocal."
+            }
+          ],
+          "correctOption": "d"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-07",
+      "title": "IVAP · Tema 07 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 7.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 7.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "El esquema corporal referencia a:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La experiencia que cada cual tiene de su propio cuerpo en movimiento o estático, en cierto equilibrio espacio-temporal y en sus"
+            },
+            {
+              "id": "b",
+              "text": "A la experiencia que cada cual tiene del mundo que le rodea."
+            },
+            {
+              "id": "c",
+              "text": "La experiencia positiva que cada cual tiene de su propio cuerpo y en sus relaciones con el mundo que le rodea."
+            },
+            {
+              "id": "d",
+              "text": "La experiencia negativa que cada cual tiene de su propio cuerpo en movimiento exclusivamente, en cierto equilibrio espacio-temporal y en sus relaciones con el mundo que le rodea."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "El desarrollo motor grueso implica mejorar las habilidades utilizando:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El cuerpo entero."
+            },
+            {
+              "id": "b",
+              "text": "Los músculos largos de las extremidades."
+            },
+            {
+              "id": "c",
+              "text": "Los músculos de los dedos de las manos."
+            },
+            {
+              "id": "d",
+              "text": "Los músculos de la espalda y los pies."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "El desarrollo motor fino se refiere a:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Movimientos de mayor precisión."
+            },
+            {
+              "id": "b",
+              "text": "Movimientos de desplazamiento."
+            },
+            {
+              "id": "c",
+              "text": "Movimientos de mayor dificultad."
+            },
+            {
+              "id": "d",
+              "text": "Movimientos de extensión de músculos."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "El niño va asimilando experiencias y descubriendo los objetos y sus características:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Gracias a la intervención del adulto."
+            },
+            {
+              "id": "b",
+              "text": "Viendo, tocando, oliendo y explorando el entorno mediante el movimiento."
+            },
+            {
+              "id": "c",
+              "text": "Viendo, tocando y oliendo exclusivamente."
+            },
+            {
+              "id": "d",
+              "text": "Tocando y explorando los objetos que tiene en el aula."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Las sensaciones y percepciones deben ser:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Lo más seguras y precisas posibles y esta precisión se conseguirá a través de los sentidos."
+            },
+            {
+              "id": "b",
+              "text": "Lo más seguras e imprecisas posibles para desarrollar la capacidad de la creatividad."
+            },
+            {
+              "id": "c",
+              "text": "Lo más coloridas posibles, incorporando olores, formas, tamaños y sonidos, entre otros."
+            },
+            {
+              "id": "d",
+              "text": "Lo más transversales posibles y esa transversalidad se debe incorporar tanto en la escuela como en casa."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "La educación sensorial va encaminada a que el niño...",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sea capaz de interpretar lo que le rodea."
+            },
+            {
+              "id": "b",
+              "text": "Sea capaz de interpretar y disfrutar con las sensaciones recibidas haciendo de ellas un uso apropiado y creativo."
+            },
+            {
+              "id": "c",
+              "text": "Sea capaz de vivir con seguridad en su entorno."
+            },
+            {
+              "id": "d",
+              "text": "Sea capaz de comunicarse con claridad con las personas que interactúan con él."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Dentro de la educación sensorial se encuentra la educación de las sensaciones:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Visuales, auditivas, táctiles, olfativas y gustativas."
+            },
+            {
+              "id": "b",
+              "text": "Auditivas y motóricas."
+            },
+            {
+              "id": "c",
+              "text": "Visuales, motóricas, cognitivas y gustativas."
+            },
+            {
+              "id": "d",
+              "text": "Coyunturales, auditivas, táctiles, olfativas y gustativas."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "El desarrollo sensorial es el comienzo del:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollo cognitivo-motor."
+            },
+            {
+              "id": "b",
+              "text": "Desarrollo del lenguaje."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollo exclusivamente cognitivo."
+            },
+            {
+              "id": "d",
+              "text": "Desarrollo motor únicamente."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Un esquema corporal bien definido implica:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Control tónico o tono muscular, lateralidad, coordinación de movimientos, nociones espacio-temporales, control postural o equilibrio,"
+            },
+            {
+              "id": "b",
+              "text": "Control tónico o tono muscular, bilateralidad, coordinación de movimientos, nociones espacio-temporales, control postural o equilibrio, relajación, control respiratorio."
+            },
+            {
+              "id": "c",
+              "text": "Control tónico o tono muscular, bilateralidad, coordinación de movimientos, nociones espacio-temporales, control postural o equilibrio, relajación, control mental."
+            },
+            {
+              "id": "d",
+              "text": "Control tónico o tono muscular, lateralidad, coordinación de movimientos, nociones espacio-temporales, control postural o equilibrio, relajación, control mental."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "El desarrollo de las habilidades motrices depende de la maduración neurológica y pasa por las siguientes fases:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sensoriomotor y preoperatoria."
+            },
+            {
+              "id": "b",
+              "text": "Automatismo y de adquisición del lenguaje y el habla."
+            },
+            {
+              "id": "c",
+              "text": "Automatismo, receptiva y de experimentación y adquisición de conocimientos."
+            },
+            {
+              "id": "d",
+              "text": "Sensoriomotor, transmisiva y de adquisición de conocimientos."
+            }
+          ],
+          "correctOption": "c"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-08",
+      "title": "IVAP · Tema 08 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 8.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 8.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Qué característica de la etapa prelingüística es la correcta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El niño/a dispone ya de un lenguaje bastante comprensible."
+            },
+            {
+              "id": "b",
+              "text": "La mayoría de las vocalizaciones emitidas por el niño son frases."
+            },
+            {
+              "id": "c",
+              "text": "Es una etapa poco importante ya que a medida que crecen van a acabar hablando igualmente."
+            },
+            {
+              "id": "d",
+              "text": "Es una manifestación meramente fisiológica relacionada con sensaciones de placer."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "Piaget estudia los estadios del desarrollo de la inteligencia, pero, ¿cuáles pertenecen a la etapa de la Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sensiomotor y operaciones concretas."
+            },
+            {
+              "id": "b",
+              "text": "Operaciones concretas y operaciones formales."
+            },
+            {
+              "id": "c",
+              "text": "Preoperacional y sensiomotor."
+            },
+            {
+              "id": "d",
+              "text": "Sensiomotor y operaciones formales."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "Existen una serie de adaptaciones para la correcta adquisición del lenguaje. ¿Cuál no es correcta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Feedback correctivo o iniciativa del hermano pequeño."
+            },
+            {
+              "id": "b",
+              "text": "Feedback correctivo o iniciativa del niño."
+            },
+            {
+              "id": "c",
+              "text": "Feedback correctivo o iniciativa del adulto."
+            },
+            {
+              "id": "d",
+              "text": "Baby-talk."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Para qué empleó Bruner el nombre de formato?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Para describir las interacciones circulares entre padres, hijos y objetos."
+            },
+            {
+              "id": "b",
+              "text": "Para describir las interacciones entre padres e hijos."
+            },
+            {
+              "id": "c",
+              "text": "Para describir las interacciones triangulares entre el niño/a, el adulto y los objetos."
+            },
+            {
+              "id": "d",
+              "text": "Para describir las interacciones entre iguales."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Qué teoría sobre la adquisición del lenguaje sitúa la aparición de esta capacidad en la adquisición de la función simbólica?:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Chomsky."
+            },
+            {
+              "id": "b",
+              "text": "Piaget."
+            },
+            {
+              "id": "c",
+              "text": "Ausubel."
+            },
+            {
+              "id": "d",
+              "text": "Bruner."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué característica es propia del estadio sensiomotor?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Se da entre los 2 y 6 años."
+            },
+            {
+              "id": "b",
+              "text": "A principios de la etapa los bebés se caracterizan por mostrar egocentrismo extremo."
+            },
+            {
+              "id": "c",
+              "text": "Aparece la primera reacción circular secundaria."
+            },
+            {
+              "id": "d",
+              "text": "Aparece después de las operaciones concretas."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Cuál de las siguientes afirmaciones de la etapa lingüística es correcta?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Esta etapa corresponde entre los 1-3 años."
+            },
+            {
+              "id": "b",
+              "text": "Cuando empiezan en el colegio a los 3 años, tienen que saber hablar perfectamente, por eso los educadores/as tenemos que sobreestimularlos para potenciar la capacidad del habla."
+            },
+            {
+              "id": "c",
+              "text": "Es el periodo en el que abundan las preguntas y el interés por el nombre de las cosas, así como también nombran y señalan personas"
+            },
+            {
+              "id": "d",
+              "text": "La mejor manera de estimular el lenguaje en el niño/a es la lectura de cuentos clásicos."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Qué teoría sostiene que las personas tenemos una tendencia innata para aprender el lenguaje?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Vigotsky."
+            },
+            {
+              "id": "b",
+              "text": "Bruner."
+            },
+            {
+              "id": "c",
+              "text": "Piaget."
+            },
+            {
+              "id": "d",
+              "text": "Chomsky."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿De qué edad a qué edad corresponde la etapa de Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "0-3."
+            },
+            {
+              "id": "b",
+              "text": "0-4."
+            },
+            {
+              "id": "c",
+              "text": "1-6."
+            },
+            {
+              "id": "d",
+              "text": "0-6."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Qué característica NO es propia del estadio preoperacional?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Esta etapa va antes que la sensiomotora."
+            },
+            {
+              "id": "b",
+              "text": "Animismo."
+            },
+            {
+              "id": "c",
+              "text": "Egocentrismo."
+            },
+            {
+              "id": "d",
+              "text": "Artificalismo."
+            }
+          ],
+          "correctOption": "a"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-09",
+      "title": "IVAP · Tema 09 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 9.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 9.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "La evolución de las diferentes capacidades relacionadas con el conocimiento lógico-matemático será en relación a aspectos:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Cuantitativos y cualitativos únicamente."
+            },
+            {
+              "id": "b",
+              "text": "Cuantitativos, cualitativos y de organización de la clase."
+            },
+            {
+              "id": "c",
+              "text": "Cuantitativos y de organización de la geometría."
+            },
+            {
+              "id": "d",
+              "text": "Cuantitativos, cualitativos y para la organización del espacio y la geometría."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "Se entiende por pensamiento lógico-matemático:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El conjunto de cualidades observables que permiten resolver operaciones básicas, analizar información, hacer uso del pensamiento reflexivo y del conocimiento del mundo que nos rodea, para aplicarlo a la vida cotidiana."
+            },
+            {
+              "id": "b",
+              "text": "El conjunto de habilidades que permiten resolver operaciones básicas, analizar información, hacer uso del pensamiento reflexivo y del"
+            },
+            {
+              "id": "c",
+              "text": "El conjunto de habilidades que permiten resolver operaciones básicas, analizar frases, hacer uso del pensamiento y del conocimiento de los números."
+            },
+            {
+              "id": "d",
+              "text": "El conjunto de habilidades que permiten conocer el mundo que nos rodea, así como la evolución y creación del universo utilizando el método científico."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "Cuando hablamos de aspectos cuantitativos estamos haciendo referencia a:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Cuantificadores básicos, el concepto de operación y la medida."
+            },
+            {
+              "id": "b",
+              "text": "Cuantificadores complejos, el concepto de número y la medida."
+            },
+            {
+              "id": "c",
+              "text": "Cuantificadores complejos, el concepto de operación, la medida y la aritmética."
+            },
+            {
+              "id": "d",
+              "text": "Cuantificadores básicos, el concepto de número, la medida y la aritmética."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "Los recursos didácticos pueden ser:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Estructurados, rígidos y flexibles."
+            },
+            {
+              "id": "b",
+              "text": "Estructurados y no estructurados."
+            },
+            {
+              "id": "c",
+              "text": "No estructurados y de madera."
+            },
+            {
+              "id": "d",
+              "text": "Estructurados y hechos a mano."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Los contenidos lógico-matemáticos, al tratarse de contenidos considerados abstractos, se tienen que introducir:",
+          "options": [
+            {
+              "id": "a",
+              "text": "De forma manipulativa, bajo el principio de actividad y experimentación, partiendo siempre de situaciones que resulten cercanas y que"
+            },
+            {
+              "id": "b",
+              "text": "De forma magistral, siendo el profesorado quien explique los contenidos y el alumnado sea mero receptor."
+            },
+            {
+              "id": "c",
+              "text": "De forma manipulativa, bajo el principio de pasividad, partiendo siempre de situaciones que resulten lejanas."
+            },
+            {
+              "id": "d",
+              "text": "De forma manipulativa, en ocasiones, siguiendo las instrucciones del libro elegido por el equipo educativo y realizando muchas actividades repetitivas para que el alumnado asimile los saberes básicos."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "Para orientarse por el espacio es necesario orientarse:",
+          "options": [
+            {
+              "id": "a",
+              "text": "En su propio cuerpo, en torno a tres dimensiones: arriba-debajo de su cuerpo, delante-detrás de su cuerpo y a un lado y otro de su"
+            },
+            {
+              "id": "b",
+              "text": "En la estancia teniendo en cuenta la cercanía de los objetos de su entorno."
+            },
+            {
+              "id": "c",
+              "text": "En su propio cuerpo, en torno a tres dimensiones: arriba-debajo de su cuerpo, delante-detrás del cuerpo del compañero y a un lado y otro de su cuerpo; o en relación al yo y no yo."
+            },
+            {
+              "id": "d",
+              "text": "En su propio cuerpo, en torno a tres dimensiones: ancho, largo y alto y teniendo en cuenta la cercanía de los objetos del entorno en relación al yo o no yo."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Entendemos por recursos didácticos:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Los libros de texto."
+            },
+            {
+              "id": "b",
+              "text": "Un amplio campo de los objetos que se ponen a disposición del alumnado en la escuela infantil para facilitar la transmisión de los"
+            },
+            {
+              "id": "c",
+              "text": "Libros que se ponen a disposición del alumnado en la escuela infantil para facilitar la transmisión de los conocimientos y la elaboración de ideas por parte del alumnado para llegar al entendimiento del contenido tratado."
+            },
+            {
+              "id": "d",
+              "text": "Un amplio campo de los objetos que se ponen a disposición del profesorado en la escuela infantil para facilitar la transmisión de los conocimientos y la elaboración de ideas del alumnado para llegar al entendimiento del contenido tratado."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "El pensamiento lógico-matemático es fundamental para:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Comprender conceptos abstractos, razonamiento y comprensión de relaciones."
+            },
+            {
+              "id": "b",
+              "text": "Comprender conceptos reales, razonamiento y comprensión de relaciones."
+            },
+            {
+              "id": "c",
+              "text": "Comprender conceptos relacionados exclusivamente con los números, razonamiento de operaciones matemáticas y comprensión de relaciones de sumas y restas."
+            },
+            {
+              "id": "d",
+              "text": "Comprender geométricamente el mundo que nos rodea."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "El pensamiento lógico-matemático contribuye, entre otras, al:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollo del lenguaje y la comunicación."
+            },
+            {
+              "id": "b",
+              "text": "Desarrollo del pensamiento y de la inteligencia."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollo de la grafomotricidad y del lenguaje."
+            },
+            {
+              "id": "d",
+              "text": "Desarrollo físico y motor del alumnado."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "Al hacer referencia a las capacidades relacionadas con aspectos cualitativos, estamos diciendo que el alumno o alumna tendrá que:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Aprender a identificar los atributos de los objetos y colecciones y a realizar clasificaciones y seriaciones."
+            },
+            {
+              "id": "b",
+              "text": "Aprender únicamente a identificar los atributos de los objetos y colecciones."
+            },
+            {
+              "id": "c",
+              "text": "Identificar y nombrar las partes de los objetos y de las colecciones y realizar clasificaciones y seriaciones."
+            },
+            {
+              "id": "d",
+              "text": "Solamente realizar clasificaciones y seriaciones."
+            }
+          ],
+          "correctOption": "a"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-10",
+      "title": "IVAP · Tema 10 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 10.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 10.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Cuál de estas consideraciones NO es correcta para la construcción de imágenes mentales del niño/a?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Son capaces de distinguir entre lo imaginario y lo real ya que para ellos/as no poseen el mismo potencial de verdad."
+            },
+            {
+              "id": "b",
+              "text": "La comprensión de una película necesita, por parte de los niños y niñas, la realización de una serie de actividades."
+            },
+            {
+              "id": "c",
+              "text": "Para saber lo que un niño puede comprender de una película es preciso interrogarse sobre las operaciones que es capaz de realizar y las que exige el visionado de esta."
+            },
+            {
+              "id": "d",
+              "text": "La recepción de una película exige un esfuerzo de síntesis que, en el niño, choca con su tendencia a la percepción de lo real."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Qué función aparece al final de la etapa sensiomotriz?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Simbólica."
+            },
+            {
+              "id": "b",
+              "text": "Operaciones simples."
+            },
+            {
+              "id": "c",
+              "text": "Operaciones concretas."
+            },
+            {
+              "id": "d",
+              "text": "Abstracta."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Cómo se pueden clasificar las imágenes que recibe el niño día tras día?",
+          "options": [
+            {
+              "id": "a",
+              "text": "En imágenes irreales y abstractas."
+            },
+            {
+              "id": "b",
+              "text": "En imágenes en 2D y 3D."
+            },
+            {
+              "id": "c",
+              "text": "En imágenes pequeñas, grandes y coloridas."
+            },
+            {
+              "id": "d",
+              "text": "En imágenes fijas y móviles."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Dónde pone el énfasis la educación respecto la comunicación?",
+          "options": [
+            {
+              "id": "a",
+              "text": "En habilidades sociales básicamente."
+            },
+            {
+              "id": "b",
+              "text": "En habilidades comunicativas y sociales."
+            },
+            {
+              "id": "c",
+              "text": "En habilidades comunicativas, lingüísticas, discursivas, socioculturales y estratégicas con la convivencia, además de los recursos"
+            },
+            {
+              "id": "d",
+              "text": "En habilidades sociales que desarrollen la capacidad de hacer demandas y facilitar así la comunicación."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Qué criterio NO tenemos que tener en cuenta a la hora de seleccionar materiales TIC?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Que se adecuen a la edad y a los ritmos de aprendizaje de los alumnos/as."
+            },
+            {
+              "id": "b",
+              "text": "Que sean variados, atractivos y motivacionales."
+            },
+            {
+              "id": "c",
+              "text": "Que sean discriminatorios para los alumnos, en función de los recursos económicos de la escuela o las familias, de las capacidades, del"
+            },
+            {
+              "id": "d",
+              "text": "Que permitan captar informaciones a través del mayor número de impresiones sensoriales posibles."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué son las TIC?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Son todos aquellos aparatos que poseen teclado y pantalla donde el niño/a pueda tocar, escuchar e interactuar."
+            },
+            {
+              "id": "b",
+              "text": "Son herramientas y materiales de construcción que facilitan que la parte cognoscitiva se relaje para que la información les entre en su cabeza mucho más rápido y de manera más significativa."
+            },
+            {
+              "id": "c",
+              "text": "Son herramientas y materiales visuales y no sonoros que facilitan el aprendizaje, el desarrollo de habilidades y distintas formas de aprender, estilos y ritmos de los discentes."
+            },
+            {
+              "id": "d",
+              "text": "Son herramientas y materiales de construcción que facilitan el aprendizaje, el desarrollo de habilidades y distintas formas de aprender,"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Cómo podemos definir la imagen como concepto?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Como la representación gráfica de la vida en 2D."
+            },
+            {
+              "id": "b",
+              "text": "Como la representación icónica de la realidad."
+            },
+            {
+              "id": "c",
+              "text": "Como la representación irreal de la sociedad en la que nos desenvolvemos."
+            },
+            {
+              "id": "d",
+              "text": "Como la representación aparentemente visual, que manifiesta la apariencia visual de un objeto real o imaginario."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "En la etapa sensiomotriz:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La influencia de la imagen constituye en los primeros meses una sucesión de imágenes fijas, constantes, que no propician en el niño una acción inmediata sobre ellas."
+            },
+            {
+              "id": "b",
+              "text": "La influencia de la imagen constituye en los primeros meses una sucesión de imágenes irreales, constantes, que propician en el niño una información que no sirve para su crecimiento neuronal."
+            },
+            {
+              "id": "c",
+              "text": "La influencia de la imagen constituye en los primeros meses una sucesión de imágenes sonoras y fijas constantes, que propician en el niño cierto grado de nerviosismo."
+            },
+            {
+              "id": "d",
+              "text": "La influencia de la imagen constituye en los primeros meses una sucesión de imágenes móviles, inconstantes, que propician en el niño"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿Qué dos tipos de lectura existen para la interpretación de imágenes?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Real e imaginativa."
+            },
+            {
+              "id": "b",
+              "text": "En mayúscula y minúscula."
+            },
+            {
+              "id": "c",
+              "text": "Denotativa y subjetiva."
+            },
+            {
+              "id": "d",
+              "text": "Con imágenes o sin imágenes."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿A partir de qué año el pensamiento del niño se caracteriza por la intuición?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Tercer año."
+            },
+            {
+              "id": "b",
+              "text": "Cuarto año."
+            },
+            {
+              "id": "c",
+              "text": "Quinto año."
+            },
+            {
+              "id": "d",
+              "text": "Sexto año."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-11",
+      "title": "IVAP · Tema 11 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 11.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 11.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Caminar corresponde a:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Psicomotricidad fina."
+            },
+            {
+              "id": "b",
+              "text": "Psicomotricidad gruesa."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollo lingüístico básico."
+            },
+            {
+              "id": "d",
+              "text": "Desarrollo lingüístico complejo."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "Las características del desarrollo infantil son:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Continuo, irreversible, progresivo y variable."
+            },
+            {
+              "id": "b",
+              "text": "Continuo, irreversible, progresivo y fijo."
+            },
+            {
+              "id": "c",
+              "text": "Discontinuo, irreversible, progresivo y variable."
+            },
+            {
+              "id": "d",
+              "text": "Discontinuo, irreversible, progresivo y fijo."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿A partir de cuándo el niño o la niña puede intentar imitar gestos y palabras?",
+          "options": [
+            {
+              "id": "a",
+              "text": "1 año."
+            },
+            {
+              "id": "b",
+              "text": "6 meses."
+            },
+            {
+              "id": "c",
+              "text": "1 mes."
+            },
+            {
+              "id": "d",
+              "text": "3 meses."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "La alimentación y el clima serían factores…",
+          "options": [
+            {
+              "id": "a",
+              "text": "Externos."
+            },
+            {
+              "id": "b",
+              "text": "Internos."
+            },
+            {
+              "id": "c",
+              "text": "Inferiores."
+            },
+            {
+              "id": "d",
+              "text": "Superiores."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Cuándo el niño o la niña consigue identificar animales y personas?",
+          "options": [
+            {
+              "id": "a",
+              "text": "A partir de los 6 meses."
+            },
+            {
+              "id": "b",
+              "text": "A partir de los 9 meses."
+            },
+            {
+              "id": "c",
+              "text": "A partir de los 12 meses."
+            },
+            {
+              "id": "d",
+              "text": "A partir de los 18 meses."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué debemos hacer para desarrollar el área lingüística desde un punto de vista respetuoso?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Evitar conversar con él o ella constantemente."
+            },
+            {
+              "id": "b",
+              "text": "Enseñarle objetos y llamarlos por un nombre inventado infantil."
+            },
+            {
+              "id": "c",
+              "text": "Confeccionar laminas grandes con objetos al que no tengan acceso."
+            },
+            {
+              "id": "d",
+              "text": "Impedir las relaciones sociales con otros niños de distinto sexo."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Cuándo un niño/a es capaz de decir sus primeras palabras?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Al primer año."
+            },
+            {
+              "id": "b",
+              "text": "A los 6 meses."
+            },
+            {
+              "id": "c",
+              "text": "A los 3 meses."
+            },
+            {
+              "id": "d",
+              "text": "Entre el primer y el segundo año."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Cuáles son las etapas del desarrollo físico motor?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollo motor fino y grueso."
+            },
+            {
+              "id": "b",
+              "text": "Desarrollo motor continuo y fijo."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollo afectivo y social."
+            },
+            {
+              "id": "d",
+              "text": "Desarrollo cognitivo y afectivo."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Las áreas del desarrollo infantil son:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollo cognitivo, social y emocional, lingüístico y motor."
+            },
+            {
+              "id": "b",
+              "text": "Desarrollo motor grueso y fino."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollo cognitivo y afectivo."
+            },
+            {
+              "id": "d",
+              "text": "Desarrollo cognitivo, espacial y social."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Cuándo aparece la sonrisa social?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Al mes."
+            },
+            {
+              "id": "b",
+              "text": "A la primera semana."
+            },
+            {
+              "id": "c",
+              "text": "A las 6 semanas."
+            },
+            {
+              "id": "d",
+              "text": "A los 3 meses."
+            }
+          ],
+          "correctOption": "c"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-12",
+      "title": "IVAP · Tema 12 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 12.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 12.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "El área Crecimiento en armonía se centra en:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La dimensión personal."
+            },
+            {
+              "id": "b",
+              "text": "La dimensión social."
+            },
+            {
+              "id": "c",
+              "text": "La dimensión personal y social."
+            },
+            {
+              "id": "d",
+              "text": "En el crecimiento integral y completo."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "El Decreto 100/2022 subraya que las áreas se abordaran:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollándola de mayor a menos importancia."
+            },
+            {
+              "id": "b",
+              "text": "Siguiendo el orden que el currículo marca."
+            },
+            {
+              "id": "c",
+              "text": "Desde un enfoque globalizador."
+            },
+            {
+              "id": "d",
+              "text": "Al mismo tiempo, pero de manera separada."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿En qué artículo del Decreto 100/2022 se pone énfasis a la globalización del aprendizaje?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Artículo 10."
+            },
+            {
+              "id": "b",
+              "text": "Artículo 15."
+            },
+            {
+              "id": "c",
+              "text": "Artículo 3."
+            },
+            {
+              "id": "d",
+              "text": "Artículo 5."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Qué decreto regula el currículo del 1.º ciclo de la etapa de educación infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Decreto 38/2008"
+            },
+            {
+              "id": "b",
+              "text": "Decreto 37/2008"
+            },
+            {
+              "id": "c",
+              "text": "Decreto 101/2022"
+            },
+            {
+              "id": "d",
+              "text": "Decreto 100/2022"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "El proceso de descubrimiento, observación, exploración y la conexión de los elementos físicos y naturales del entorno se enmarca dentro del área:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Descubrimiento y exploración del entorno."
+            },
+            {
+              "id": "b",
+              "text": "Comunicación y representación de la realidad."
+            },
+            {
+              "id": "c",
+              "text": "Crecimiento en armonía."
+            },
+            {
+              "id": "d",
+              "text": "Comunicación, habla y lenguaje."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "El término de “currículo” aparece por primera vez con la:",
+          "options": [
+            {
+              "id": "a",
+              "text": "LODE"
+            },
+            {
+              "id": "b",
+              "text": "LOGSE"
+            },
+            {
+              "id": "c",
+              "text": "LOECE"
+            },
+            {
+              "id": "d",
+              "text": "LOMCE"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "El desarrollo del lenguaje se enmarca dentro del área:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Descubrimiento y exploración del entorno."
+            },
+            {
+              "id": "b",
+              "text": "Comunicación y representación de la realidad."
+            },
+            {
+              "id": "c",
+              "text": "Crecimiento en armonía."
+            },
+            {
+              "id": "d",
+              "text": "Comunicación, habla y lenguaje."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Cuál de las siguientes NO es una función del currículum?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Proporcionar coherencia a la etapa educativa para la que está diseñado."
+            },
+            {
+              "id": "b",
+              "text": "Contribuir a la igualdad entre niños y niñas."
+            },
+            {
+              "id": "c",
+              "text": "Explicitar las intenciones del sistema educativo en cada etapa."
+            },
+            {
+              "id": "d",
+              "text": "Garantizar que todo el alumnado se comunique de manera fluida en al menos tres lenguas al finalizar la etapa."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Las tres áreas de la Educación Infantil son:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Crecimiento en armonía, descubrimiento y exploración del entorno y comunicación y representación de la realidad."
+            },
+            {
+              "id": "b",
+              "text": "Crecimiento personal, descubrimiento y exploración del entorno y comunicación y representación de los lenguajes."
+            },
+            {
+              "id": "c",
+              "text": "Crecimiento en armonía, descubrimiento y exploración del entorno y lenguajes: comunicación y representación."
+            },
+            {
+              "id": "d",
+              "text": "Crecimiento integral, descubrimiento del entorno y representación de la realidad."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "El desarrollo motor se enmarca dentro del área:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Descubrimiento y exploración del entorno."
+            },
+            {
+              "id": "b",
+              "text": "Comunicación y representación de la realidad."
+            },
+            {
+              "id": "c",
+              "text": "Crecimiento en armonía."
+            },
+            {
+              "id": "d",
+              "text": "Comunicación, habla y lenguaje."
+            }
+          ],
+          "correctOption": "c"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-13",
+      "title": "IVAP · Tema 13 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 13.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 13.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Según el artículo 30. Comunicación con las madres, padres o representantes legales, del Decreto 100/2022 de 29 de julio, del Consell, por el cual se establece la ordenación y el currículo de Educación Infantil, los centros tienen que garantizar, como mínimo:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Una entrevista individual con las madres, padres o representantes legales al inicio de"
+            },
+            {
+              "id": "b",
+              "text": "Dos entrevistas individuales con las madres, padres o representantes legales al inicio de la escolaridad."
+            },
+            {
+              "id": "c",
+              "text": "Tres entrevistas individuales con las madres, padres o representantes legales al inicio de la escolaridad."
+            },
+            {
+              "id": "d",
+              "text": "Ninguna entrevista individual."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "Si el centro de EI de 1º ciclo tiene 6 o más unidades, ¿en cuánto se aumentará la composición del consejo escolar?",
+          "options": [
+            {
+              "id": "a",
+              "text": "En dos para el personal docente y educador y tres para padres y madres."
+            },
+            {
+              "id": "b",
+              "text": "En ninguna."
+            },
+            {
+              "id": "c",
+              "text": "Habrá una segunda persona representando tanto al personal docente y al"
+            },
+            {
+              "id": "d",
+              "text": "Ninguna es correcta."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Mediante qué tipo de intercambio de información se obtienen datos relevantes y personales?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Entrevistas."
+            },
+            {
+              "id": "b",
+              "text": "Reuniones."
+            },
+            {
+              "id": "c",
+              "text": "Cuestionarios."
+            },
+            {
+              "id": "d",
+              "text": "Contactos informales diarios."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿En qué artículo del Decreto 100/2022, por el que se establece la ordenación y el currículo de EI, en la Comunidad Valenciana, nos habla de la relación entre el centro y la familia?",
+          "options": [
+            {
+              "id": "a",
+              "text": "21."
+            },
+            {
+              "id": "b",
+              "text": "23."
+            },
+            {
+              "id": "c",
+              "text": "22."
+            },
+            {
+              "id": "d",
+              "text": "20."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "En las Escuelas Infantiles de primer ciclo deben existir los siguientes órganos de gobierno:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Dirección."
+            },
+            {
+              "id": "b",
+              "text": "El consejo escolar."
+            },
+            {
+              "id": "c",
+              "text": "A y b son correctas."
+            },
+            {
+              "id": "d",
+              "text": "Tutoría y dirección."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "Según la legislación vigente, ¿cuántas veces se ha de entregar un informe para las familias sobre la evolución educativa escolar de las niñas y los niños en la etapa de Educación Infantil.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Una vez al trimestre."
+            },
+            {
+              "id": "b",
+              "text": "Al inicio y al final del curso escolar."
+            },
+            {
+              "id": "c",
+              "text": "Como mínimo dos informes."
+            },
+            {
+              "id": "d",
+              "text": "La legislación vigente no determina el número de informes que se han de elaborar para las familias."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "En la constitución, modificación o renovación del Consejo Escolar, ¿debe haber igualdad efectiva de hombres y mujeres?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sí."
+            },
+            {
+              "id": "b",
+              "text": "No."
+            },
+            {
+              "id": "c",
+              "text": "Solo en centros con más de 6 unidades."
+            },
+            {
+              "id": "d",
+              "text": "Sí, pero en centros con aulas de 2 años, en EI de primer ciclo no."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "El consejo escolar en las Escuelas Infantiles de primer ciclo estará integrado por:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Por quien ejerza la dirección del centro, que lo presidirá."
+            },
+            {
+              "id": "b",
+              "text": "Por una persona representante del personal y por una persona representando a los padres, madres que ejerzan la tutela del alumnado."
+            },
+            {
+              "id": "c",
+              "text": "Por una persona representante del personal del personal de administración y servicios (en el caso de que el centro cuente con ello) y una persona representante del Ayuntamiento del municipio en el cual esté situado el centro."
+            },
+            {
+              "id": "d",
+              "text": "Todas son correctas."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿Cuál de los siguientes miembros tiene voz, pero no voto en el Consejo Escolar?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El jefe de estudios."
+            },
+            {
+              "id": "b",
+              "text": "El representante del personal de administración y servicios del centro."
+            },
+            {
+              "id": "c",
+              "text": "El secretario del centro."
+            },
+            {
+              "id": "d",
+              "text": "El representante de los padres designado por la asociación de madres y padres más representativa del centro."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Qué entendemos por “función socializadora de la familia”?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Que la familia está insertada en una sociedad con unos prototipos establecidos."
+            },
+            {
+              "id": "b",
+              "text": "Que la familia le va a ir explicando poco a poco al niño/a cuáles son las funciones que este tiene que cumplir socialmente."
+            },
+            {
+              "id": "c",
+              "text": "Que la familia es el lugar de las primeras relaciones"
+            },
+            {
+              "id": "d",
+              "text": "Que dentro de los que es la unidad familiar, el niño tiene que ir asumiendo poco a poco un rol que le ayudará a integrarse en la sociedad."
+            }
+          ],
+          "correctOption": "c"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-14",
+      "title": "IVAP · Tema 14 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 14.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 14.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "El primer contexto básico de adquisición lingüística es la…",
+          "options": [
+            {
+              "id": "a",
+              "text": "Escuela."
+            },
+            {
+              "id": "b",
+              "text": "Familia y escuela."
+            },
+            {
+              "id": "c",
+              "text": "Familia."
+            },
+            {
+              "id": "d",
+              "text": "Amigos."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Qué es el lenguaje?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sistema de comunicación verbal y escrito, dotado de convenciones y reglas gramaticales."
+            },
+            {
+              "id": "b",
+              "text": "Capacidad de hablar."
+            },
+            {
+              "id": "c",
+              "text": "Es el instrumento básico en la formación del pensamiento."
+            },
+            {
+              "id": "d",
+              "text": "Sistema de signos lingüísticos que pueden manifestarse de manera oral o escrita."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "La utilización del cuerpo, gestos, actitudes y movimientos, con una actitud comunicativa, es importante:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Para la socialización del niño/a."
+            },
+            {
+              "id": "b",
+              "text": "Para su desarrollo corporal."
+            },
+            {
+              "id": "c",
+              "text": "Para su expresión oral."
+            },
+            {
+              "id": "d",
+              "text": "Para su comunicación."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Por qué la diversidad puede enriquecer los centros escolares?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Porque fomenta el conocimiento de otras culturas."
+            },
+            {
+              "id": "b",
+              "text": "Porque fomenta el conocimiento y el respeto de otras culturas."
+            },
+            {
+              "id": "c",
+              "text": "Porque fomenta el conocimiento de culturas iguales."
+            },
+            {
+              "id": "d",
+              "text": "Porque fomenta el conocimiento de culturas diferentes."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "La primera comunicación del niño/a con el adulto, la realiza a través de:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La mirada."
+            },
+            {
+              "id": "b",
+              "text": "El cuerpo."
+            },
+            {
+              "id": "c",
+              "text": "La voz."
+            },
+            {
+              "id": "d",
+              "text": "El juego."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué es la creatividad?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Capacidad para imaginar o soñar."
+            },
+            {
+              "id": "b",
+              "text": "Capacidad de tener ideas originales."
+            },
+            {
+              "id": "c",
+              "text": "Capacidad para pensar fuera de lo establecido, encontrar nuevas soluciones y generar ideas."
+            },
+            {
+              "id": "d",
+              "text": "Capacidad de pensamiento constructivo."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Una forma de representación a través de la cual la niña y el niño pueden expresar lo que va conociendo de su entorno y aquello que surge en su mundo interior, se llama:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Expresión musical."
+            },
+            {
+              "id": "b",
+              "text": "Expresión corporal."
+            },
+            {
+              "id": "c",
+              "text": "Expresión oral."
+            },
+            {
+              "id": "d",
+              "text": "Expresión plástica."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "El juego es una actividad que favorece el desarrollo del lenguaje porque los niños/as mientras juegan:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Permanecen callados."
+            },
+            {
+              "id": "b",
+              "text": "Hablan constantemente."
+            },
+            {
+              "id": "c",
+              "text": "Corren rápidamente."
+            },
+            {
+              "id": "d",
+              "text": "Saltan y se divierten."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Las cualidades del sonido son:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Timbre y duración."
+            },
+            {
+              "id": "b",
+              "text": "Intensidad y altura."
+            },
+            {
+              "id": "c",
+              "text": "Timbre, duración, intensidad y altura."
+            },
+            {
+              "id": "d",
+              "text": "Timbre, duración, intensidad y gravedad."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Qué significa aprendizaje consecutivo de la lengua?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Cuando la primera lengua se adquiere dentro de la familia, y posteriormente la segunda lengua se adquiere en el entorno"
+            },
+            {
+              "id": "b",
+              "text": "Cuando solo se adquiere una sola lengua."
+            },
+            {
+              "id": "c",
+              "text": "Cuando las dos lenguas se adquieren al mismo tiempo en el entorno familiar y escolar."
+            },
+            {
+              "id": "d",
+              "text": "Cuando las dos lenguas se adquieren en el mismo contexto (familiar o escolar)."
+            }
+          ],
+          "correctOption": "a"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-15",
+      "title": "IVAP · Tema 15 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 15.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 15.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Es la literatura infantil una entidad propia reconocida socialmente?",
+          "options": [
+            {
+              "id": "a",
+              "text": "En la zona de los Países Bajos solo."
+            },
+            {
+              "id": "b",
+              "text": "En España solamente."
+            },
+            {
+              "id": "c",
+              "text": "No."
+            },
+            {
+              "id": "d",
+              "text": "Sí."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Cómo hablar de literatura infantil a un alumnado que aún no reconoce las letras?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Llegará a reconocerlas y así hablaremos de literatura infantil."
+            },
+            {
+              "id": "b",
+              "text": "A través de video-cuentos, únicamente."
+            },
+            {
+              "id": "c",
+              "text": "A través de las marionetas, principalmente."
+            },
+            {
+              "id": "d",
+              "text": "La literatura infantil no solo es escrita, sino también oral e incluso puramente pictórica, sin letra, por eso se trabajará en las"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "Desde el punto de vista evolutivo del niño, entre los 3 y 4 años, los niños se sienten atraídos por:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Los cuentos de hadas, los cuales le son de mucho valor al niño."
+            },
+            {
+              "id": "b",
+              "text": "Secuencias de acciones, ya que ahora sí son capaces de fijarse en figuras más pequeñas."
+            },
+            {
+              "id": "c",
+              "text": "Las fábulas, los cuentos de animales y los de seres mágicos."
+            },
+            {
+              "id": "d",
+              "text": "Las novelas de aventura e históricas."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "Los cuentos más adecuados para esta etapa son aquellos que se basan en el movimiento y en las imágenes, para ello es necesario asociar las palabras y sonidos a las acciones correspondientes. Los cuentos deben tener una estructura sencilla, desarrollarse en un entorno conocido y narrarse de forma personalizada. ¿A qué edad hace referencia?",
+          "options": [
+            {
+              "id": "a",
+              "text": "0-3"
+            },
+            {
+              "id": "b",
+              "text": "3-4 años."
+            },
+            {
+              "id": "c",
+              "text": "4-5 años."
+            },
+            {
+              "id": "d",
+              "text": "5-6 años."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Cuál de las siguientes NO es una característica de la literatura infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Están dirigidas al público infantil."
+            },
+            {
+              "id": "b",
+              "text": "Están formadas por texto escrito únicamente."
+            },
+            {
+              "id": "c",
+              "text": "Deben tener la intención de resultar bonitos y atrayentes."
+            },
+            {
+              "id": "d",
+              "text": "Deben ser del interés de los niños en general."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Existe un tipo de soporte que es la propia memoria humana?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sí."
+            },
+            {
+              "id": "b",
+              "text": "No."
+            },
+            {
+              "id": "c",
+              "text": "Sí, pero ya no se usa."
+            },
+            {
+              "id": "d",
+              "text": "Sí pero solo se da en el 1º año de vida."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿En qué competencia clave del Decreto 100/2022 podemos ubicar la literatura infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Competencia plurilingüe."
+            },
+            {
+              "id": "b",
+              "text": "Competencia digital."
+            },
+            {
+              "id": "c",
+              "text": "Competencia emprendedora."
+            },
+            {
+              "id": "d",
+              "text": "Competencia de comunicación lingüística."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "Además de los cuentos, ¿qué otros géneros existen dentro de la modalidad de la tradición oral?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Los libros de misterio, las adivinanzas y los trabalenguas."
+            },
+            {
+              "id": "b",
+              "text": "Las elocuciones, los libros de humor y los trabalenguas."
+            },
+            {
+              "id": "c",
+              "text": "Las novelas de aventura, las engañifas, las poesías y las adivinanzas."
+            },
+            {
+              "id": "d",
+              "text": "Los trabalenguas, las poesías, las adivinanzas y las elocuciones."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Siguiendo el esquema de Durán (1988) podemos clasificar la literatura infantil en:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El folklore popular y la prensa infantil."
+            },
+            {
+              "id": "b",
+              "text": "La tradición oral y la literatura."
+            },
+            {
+              "id": "c",
+              "text": "El folklore popular y la literatura."
+            },
+            {
+              "id": "d",
+              "text": "La tradición oral y la prensa infantil."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿En qué área del Decreto 100/2022 podemos ubicar la literatura infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ninguna."
+            },
+            {
+              "id": "b",
+              "text": "Creciendo en armonía."
+            },
+            {
+              "id": "c",
+              "text": "Descubrimiento y exploración del entorno."
+            },
+            {
+              "id": "d",
+              "text": "Comunicación y representación de la realidad."
+            }
+          ],
+          "correctOption": "d"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-16",
+      "title": "IVAP · Tema 16 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 16.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 16.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Cuál de los siguientes es un juego reglado?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Juegos de destrucción."
+            },
+            {
+              "id": "b",
+              "text": "Juegos de construcción."
+            },
+            {
+              "id": "c",
+              "text": "Juegos funcionales."
+            },
+            {
+              "id": "d",
+              "text": "Juegos hedonísticos."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿A qué edad el juego comienza a dirigirse hacia el exterior?",
+          "options": [
+            {
+              "id": "a",
+              "text": "12 meses."
+            },
+            {
+              "id": "b",
+              "text": "15 meses."
+            },
+            {
+              "id": "c",
+              "text": "6 meses."
+            },
+            {
+              "id": "d",
+              "text": "18 meses."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "El juego simbólico desarrolla una serie de capacidades entre las cuales NO se encuentra:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El lenguaje."
+            },
+            {
+              "id": "b",
+              "text": "La coordinación"
+            },
+            {
+              "id": "c",
+              "text": "La creatividad."
+            },
+            {
+              "id": "d",
+              "text": "La imaginación."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "El juego de regazo y carantoñas, ¿por qué se caracteriza?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Por tener textos complejos."
+            },
+            {
+              "id": "b",
+              "text": "Por tener excesivos gestos corporales."
+            },
+            {
+              "id": "c",
+              "text": "Van acompañados de gestos"
+            },
+            {
+              "id": "d",
+              "text": "Por requerir de movimientos bruscos."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "El primer autor que considera el juego como motor del desarrollo es:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Piaget."
+            },
+            {
+              "id": "b",
+              "text": "Freud."
+            },
+            {
+              "id": "c",
+              "text": "Lazarus."
+            },
+            {
+              "id": "d",
+              "text": "Karl"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "Según Freud, “los niños reproducen en sus juegos todo lo que les ha impresionado en la vida… Pero también es evidente que todos sus juegos están condicionados por un deseo que, a su edad, juega un papel predominante: el deseo de ser _________ y de poder comportarse como lo hacen ellos…”",
+          "options": [
+            {
+              "id": "a",
+              "text": "Bebés."
+            },
+            {
+              "id": "b",
+              "text": "Adolescentes."
+            },
+            {
+              "id": "c",
+              "text": "Niños."
+            },
+            {
+              "id": "d",
+              "text": "Mayores."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Porqué podemos decir que el juego es un recurso metodológico fundamental en el ámbito escolar?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Porque el/la niño/a aprende a través del juego mediante manipulación y exploración de su entorno, asimilando mejor los"
+            },
+            {
+              "id": "b",
+              "text": "Porque solo quieren jugar."
+            },
+            {
+              "id": "c",
+              "text": "Porque a través del movimiento explora y conoce su entorno."
+            },
+            {
+              "id": "d",
+              "text": "Porque les produce placer."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Dónde sitúa Piaget la aparición del juego?",
+          "options": [
+            {
+              "id": "a",
+              "text": "En el periodo preoperacional."
+            },
+            {
+              "id": "b",
+              "text": "En el periodo de operaciones concretas."
+            },
+            {
+              "id": "c",
+              "text": "En el periodo"
+            },
+            {
+              "id": "d",
+              "text": "En el periodo de operaciones formales."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "En toda la etapa de infantil, el juego tiene un gran componente:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Afectivo"
+            },
+            {
+              "id": "b",
+              "text": "Sensorial"
+            },
+            {
+              "id": "c",
+              "text": "Cognitivo"
+            },
+            {
+              "id": "d",
+              "text": "Motor"
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "La teoría sobre el juego que viene a decir que el juego permite al niño/a rebajar la energía acumulada que no se ha consumido en las necesidades biológicas básicas, fue formulada por:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Herbert Spencer."
+            },
+            {
+              "id": "b",
+              "text": "Lazarus."
+            },
+            {
+              "id": "c",
+              "text": "Karl Groos."
+            },
+            {
+              "id": "d",
+              "text": "Buytendijk."
+            }
+          ],
+          "correctOption": "a"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-17",
+      "title": "IVAP · Tema 17 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 17.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 17.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Qué teórica del desarrollo destacó que los niños pueden reconocer y verbalizar su identidad de género alrededor de los 2-3 años?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Diane E. Papalia."
+            },
+            {
+              "id": "b",
+              "text": "Jessica Love."
+            },
+            {
+              "id": "c",
+              "text": "Cheryl Kilodavis."
+            },
+            {
+              "id": "d",
+              "text": "Elisenda Pascual."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Qué teórico del desarrollo propuso fases como la oral, anal y fálica?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Jean Piaget."
+            },
+            {
+              "id": "b",
+              "text": "Lawrence Kohlberg."
+            },
+            {
+              "id": "c",
+              "text": "Erik Erikson."
+            },
+            {
+              "id": "d",
+              "text": "Sigmund Freud."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "Los estudiantes deben tener la oportunidad de demostrar su comprensión y habilidades de diferentes maneras. ¿A qué principio del DUA corresponde dicha afirmación?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Múltiples medios de representación."
+            },
+            {
+              "id": "b",
+              "text": "Múltiples medios de compromiso."
+            },
+            {
+              "id": "c",
+              "text": "Múltiples medios de acción y expresión."
+            },
+            {
+              "id": "d",
+              "text": "Tecnología inclusiva."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Qué estrategia educativa propone una educación flexible que se adapte a las necesidades de todos los estudiantes?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Coeducación."
+            },
+            {
+              "id": "b",
+              "text": "ODS."
+            },
+            {
+              "id": "c",
+              "text": "DUA."
+            },
+            {
+              "id": "d",
+              "text": "Educación basada en estereotipos."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Cuál de los siguientes teóricos introdujo el concepto de sexualidad infantil a través de fases de desarrollo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Jean Piaget."
+            },
+            {
+              "id": "b",
+              "text": "Lawrence Kohlberg."
+            },
+            {
+              "id": "c",
+              "text": "Erik Erikson."
+            },
+            {
+              "id": "d",
+              "text": "Sigmund Freud."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿En qué etapa los niños comienzan a desarrollar un sentido de autonomía según Erikson?",
+          "options": [
+            {
+              "id": "a",
+              "text": "0-1 año."
+            },
+            {
+              "id": "b",
+              "text": "1-3 años."
+            },
+            {
+              "id": "c",
+              "text": "3-6 años."
+            },
+            {
+              "id": "d",
+              "text": "6-9 años."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Durante la fase de exploración, ¿en qué etapa del desarrollo psicosexual de Freud se encuentran los niños?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Fase oral."
+            },
+            {
+              "id": "b",
+              "text": "Fase anal."
+            },
+            {
+              "id": "c",
+              "text": "Fase fálica."
+            },
+            {
+              "id": "d",
+              "text": "Fase de latencia."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Qué Objetivo de Desarrollo Sostenible (ODS) busca alcanzar la igualdad de género?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Objetivo 1."
+            },
+            {
+              "id": "b",
+              "text": "Objetivo 3."
+            },
+            {
+              "id": "c",
+              "text": "Objetivo 4."
+            },
+            {
+              "id": "d",
+              "text": "Objetivo 5."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿En qué etapa, según Erikson, los niños comienzan a tomar la iniciativa?",
+          "options": [
+            {
+              "id": "a",
+              "text": "0-1 año."
+            },
+            {
+              "id": "b",
+              "text": "1-3 años."
+            },
+            {
+              "id": "c",
+              "text": "3-6 años."
+            },
+            {
+              "id": "d",
+              "text": "6-9 años."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "Según Erik Erikson, ¿cuál es la primera etapa en el desarrollo psicosocial?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Fomento de la autonomía."
+            },
+            {
+              "id": "b",
+              "text": "Desarrollo de la confianza."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollo de la iniciativa."
+            },
+            {
+              "id": "d",
+              "text": "Fase de consolidación de la identidad de género."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-18",
+      "title": "IVAP · Tema 18 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 18.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 18.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Dentro de la clasificación de la discapacidad auditiva, ¿qué término se utiliza para denominar la pérdida auditiva en un umbral de leve a moderado?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Cofosis."
+            },
+            {
+              "id": "b",
+              "text": "Sordera."
+            },
+            {
+              "id": "c",
+              "text": "Hipoacusia."
+            },
+            {
+              "id": "d",
+              "text": "Discapacidad auditiva."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Cuál de los siguientes conceptos se describe como limitaciones significativas en el razonamiento, la resolución de problemas, el aprendizaje académico y las habilidades prácticas para la vida diaria?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Discapacidad intelectual."
+            },
+            {
+              "id": "b",
+              "text": "Retraso mental."
+            },
+            {
+              "id": "c",
+              "text": "Discapacidad cognitiva."
+            },
+            {
+              "id": "d",
+              "text": "Deficiencia mental."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Cuál de las siguientes figuras puede tener un carácter administrativo o judicial y que otorga la guarda de un menor a una persona o grupo familiar, con la obligación de cuidarlo, alimentarlo y educarlo por un tiempo, con el fin de integrarlo en una vida familiar que sustituya o complemente temporalmente a la suya natural, con independencia de que los padres están o no privados, total o parcialmente de la patria potestad?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Adopción."
+            },
+            {
+              "id": "b",
+              "text": "Recogida provisional."
+            },
+            {
+              "id": "c",
+              "text": "Acogimiento familiar."
+            },
+            {
+              "id": "d",
+              "text": "Adopción internacional."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "A nivel de centro, ¿qué estructura de la orientación educativa existe?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Equipos de orientación educativa."
+            },
+            {
+              "id": "b",
+              "text": "Agrupaciones de orientación de zona."
+            },
+            {
+              "id": "c",
+              "text": "Residencias socioeducativas."
+            },
+            {
+              "id": "d",
+              "text": "Coordinación Territorial de la Orientación."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Según Renzulli (1978), ¿cuál es la definición general de altas capacidades intelectuales?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Rendimiento académico en el 20% superior del grupo normativo."
+            },
+            {
+              "id": "b",
+              "text": "Capacidad para resolver problemas de manera creativa."
+            },
+            {
+              "id": "c",
+              "text": "Nivel sobresaliente tanto en aptitud como en competencia."
+            },
+            {
+              "id": "d",
+              "text": "Desempeño documentado en uno o más dominios."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Cuál de las siguientes Unidades Especializadas de Orientación NO existe?",
+          "options": [
+            {
+              "id": "a",
+              "text": "UEO discapacidad intelectual y altas capacidades."
+            },
+            {
+              "id": "b",
+              "text": "UEO trastorno del aprendizaje no verbal."
+            },
+            {
+              "id": "c",
+              "text": "UEO trastorno del espectro autista."
+            },
+            {
+              "id": "d",
+              "text": "UEO convivencia y conducta."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Atendiendo sus características funcionales, los hogares o residencias pueden ser:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Hogar de adopción."
+            },
+            {
+              "id": "b",
+              "text": "Específicas para problemas graves de conducta."
+            },
+            {
+              "id": "c",
+              "text": "De acogimiento familiar."
+            },
+            {
+              "id": "d",
+              "text": "Centros comunitarios singulares."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Cuál de los siguientes diagnósticos se trata de un trastorno del neurodesarrollo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Trastorno del Déficit de Atención con o sin Hiperactividad."
+            },
+            {
+              "id": "b",
+              "text": "Trastorno de la conducta."
+            },
+            {
+              "id": "c",
+              "text": "Trastorno negativista desafiante."
+            },
+            {
+              "id": "d",
+              "text": "Discapacidad visual."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "El DSM-5 clasifica el trastorno del espectro autista dentro de los:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Trastorno de la personalidad."
+            },
+            {
+              "id": "b",
+              "text": "Trastorno del neurodesarrollo."
+            },
+            {
+              "id": "c",
+              "text": "Trastorno de la disforia."
+            },
+            {
+              "id": "d",
+              "text": "Trastorno emocional."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Cuál de los siguientes trastornos pertenece a la clasificación de trastornos de comunicación y el lenguaje?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El Trastorno del Espectro Autista."
+            },
+            {
+              "id": "b",
+              "text": "Trastorno del aprendizaje específico en la expresión escrita."
+            },
+            {
+              "id": "c",
+              "text": "Trastorno de la Comunicación Social."
+            },
+            {
+              "id": "d",
+              "text": "Trastorno fonológico."
+            }
+          ],
+          "correctOption": "c"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-19",
+      "title": "IVAP · Tema 19 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 19.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 19.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Qué autor destacó la importancia de educar a los niños sobre la procedencia de los alimentos?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Walker."
+            },
+            {
+              "id": "b",
+              "text": "Hirshkowitz."
+            },
+            {
+              "id": "c",
+              "text": "Jaime Oliver."
+            },
+            {
+              "id": "d",
+              "text": "Birch."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Cuál de los siguientes no es un grupo de nutrientes esenciales?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Proteínas."
+            },
+            {
+              "id": "b",
+              "text": "Carbohidratos."
+            },
+            {
+              "id": "c",
+              "text": "Grasas saludables."
+            },
+            {
+              "id": "d",
+              "text": "Grasas trans."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Qué proceso ocurre durante el sueño que facilita el aprendizaje?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Digestión."
+            },
+            {
+              "id": "b",
+              "text": "Consolidación de la memoria."
+            },
+            {
+              "id": "c",
+              "text": "Producción de insulina."
+            },
+            {
+              "id": "d",
+              "text": "Desintoxicación."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Qué hormona regula el sueño y puede verse afectada por la exposición a la luz azul de las pantallas?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Adrenalina."
+            },
+            {
+              "id": "b",
+              "text": "Insulina."
+            },
+            {
+              "id": "c",
+              "text": "Melatonina."
+            },
+            {
+              "id": "d",
+              "text": "Serotonina."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Qué NO se recomienda hacer justo antes de dormir para garantizar un sueño reparador en niños?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Leer un libro."
+            },
+            {
+              "id": "b",
+              "text": "Tomar un baño caliente."
+            },
+            {
+              "id": "c",
+              "text": "Escuchar música relajante."
+            },
+            {
+              "id": "d",
+              "text": "Exposición a dispositivos electrónicos."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué enfermedad está directamente relacionada con el consumo excesivo de alimentos procesados y azucarados en niños?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Anemia."
+            },
+            {
+              "id": "b",
+              "text": "Caries."
+            },
+            {
+              "id": "c",
+              "text": "Resfriado común."
+            },
+            {
+              "id": "d",
+              "text": "Diabetes."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Qué enfermedad puede prevenirse con una buena higiene bucal en niños?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Diabetes."
+            },
+            {
+              "id": "b",
+              "text": "Caries"
+            },
+            {
+              "id": "c",
+              "text": "Resfriado común."
+            },
+            {
+              "id": "d",
+              "text": "Osteoporosis."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Qué elemento es esencial para prevenir enfermedades infecciosas en niños?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Consumo de vitaminas."
+            },
+            {
+              "id": "b",
+              "text": "Exposición al sol."
+            },
+            {
+              "id": "c",
+              "text": "Lavado de manos."
+            },
+            {
+              "id": "d",
+              "text": "Ejercicio regular."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Según Birch et al. (2007), ¿qué es fundamental para garantizar un crecimiento óptimo en los niños?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Juegos."
+            },
+            {
+              "id": "b",
+              "text": "Sueño."
+            },
+            {
+              "id": "c",
+              "text": "Alimentación equilibrada."
+            },
+            {
+              "id": "d",
+              "text": "Ejercicio."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Cuál de las siguientes opciones NO es una consecuencia directa de la falta de sueño en niños?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Mejor rendimiento académico."
+            },
+            {
+              "id": "b",
+              "text": "Problemas de concentración."
+            },
+            {
+              "id": "c",
+              "text": "Alteraciones del estado de ánimo."
+            },
+            {
+              "id": "d",
+              "text": "Mayor riesgo de obesidad."
+            }
+          ],
+          "correctOption": "a"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-20",
+      "title": "IVAP · Tema 20 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 20.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 20.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Qué aspecto del desarrollo NO se relaciona directamente con la alimentación?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollo motriz."
+            },
+            {
+              "id": "b",
+              "text": "Desarrollo lingüístico."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollo artístico."
+            },
+            {
+              "id": "d",
+              "text": "Desarrollo emocional."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "En el contexto de la alimentación, ¿qué habilidad se potencia al sentarse adecuadamente en una silla?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Motricidad fina."
+            },
+            {
+              "id": "b",
+              "text": "Habilidad lingüística."
+            },
+            {
+              "id": "c",
+              "text": "Motricidad gruesa."
+            },
+            {
+              "id": "d",
+              "text": "Habilidad emocional."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Qué aspecto del desarrollo se potencia al hablar sobre preferencias alimenticias?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollo motriz."
+            },
+            {
+              "id": "b",
+              "text": "Desarrollo lingüístico."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollo social."
+            },
+            {
+              "id": "d",
+              "text": "Desarrollo sensorial."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Qué aspecto del desarrollo se potencia al descubrir y probar nuevos alimentos?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollo motriz."
+            },
+            {
+              "id": "b",
+              "text": "Desarrollo lingüístico."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollo social."
+            },
+            {
+              "id": "d",
+              "text": "Desarrollo sensorial."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Qué diferencia la nutrición de la alimentación?",
+          "options": [
+            {
+              "id": "a",
+              "text": "La nutrición se refiere a la ingesta de alimentos, mientras que la alimentación se refiere a cómo el cuerpo utiliza esos alimentos."
+            },
+            {
+              "id": "b",
+              "text": "La nutrición se centra en cómo el cuerpo utiliza los nutrientes obtenidos de los alimentos, mientras que la alimentación se refiere a la"
+            },
+            {
+              "id": "c",
+              "text": "La nutrición y la alimentación son términos intercambiables y significan lo mismo."
+            },
+            {
+              "id": "d",
+              "text": "La nutrición se refiere solo a la ingesta de vitaminas, mientras que la alimentación se refiere a la ingesta de macronutrientes."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué aspecto del desarrollo se potencia al probar nuevos alimentos o texturas?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollo motriz."
+            },
+            {
+              "id": "b",
+              "text": "Desarrollo emocional."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollo social."
+            },
+            {
+              "id": "d",
+              "text": "Desarrollo sensorial."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Qué profesional se destacó por hablar sobre alimentación y menús?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Carlos González."
+            },
+            {
+              "id": "b",
+              "text": "Erik Erikson."
+            },
+            {
+              "id": "c",
+              "text": "Juan Llorca."
+            },
+            {
+              "id": "d",
+              "text": "Mary Sheridan."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Qué nutriente favorece el desarrollo cognitivo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Vitamina D."
+            },
+            {
+              "id": "b",
+              "text": "Ácidos grasos omega-3."
+            },
+            {
+              "id": "c",
+              "text": "Hierro."
+            },
+            {
+              "id": "d",
+              "text": "Calcio."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿Cómo se define la alimentación?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Proceso por el cual el cuerpo utiliza los nutrientes."
+            },
+            {
+              "id": "b",
+              "text": "Acción de proporcionar al cuerpo los alimentos necesarios para su funcionamiento."
+            },
+            {
+              "id": "c",
+              "text": "Estudio de cómo el cuerpo procesa los alimentos y utiliza los nutrientes."
+            },
+            {
+              "id": "d",
+              "text": "Conjunto de reglas para una dieta equilibrada."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Qué habilidad específica se refina al aprender a manejar utensilios durante las comidas?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Habilidades comunicativas."
+            },
+            {
+              "id": "b",
+              "text": "Habilidades motoras finas."
+            },
+            {
+              "id": "c",
+              "text": "Habilidades sociales."
+            },
+            {
+              "id": "d",
+              "text": "Habilidades emocionales."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-21",
+      "title": "IVAP · Tema 21 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 21.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 21.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Cómo se puede fomentar la autonomía en el aula de infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Permitiendo al alumnado elegir las actividades."
+            },
+            {
+              "id": "b",
+              "text": "Estableciendo metas."
+            },
+            {
+              "id": "c",
+              "text": "Enseñando a leer y escribir."
+            },
+            {
+              "id": "d",
+              "text": "Enseñando el razonamiento lógico-matemático."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Cómo se conoce a la figura del educador en la pedagogía Montessori?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El tercer maestro."
+            },
+            {
+              "id": "b",
+              "text": "El enlace entre alumnado y ambiente."
+            },
+            {
+              "id": "c",
+              "text": "El segundo maestro."
+            },
+            {
+              "id": "d",
+              "text": "El líder."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Qué concepto clave comparten la pedagogía Montessori y la pedagogía Reggio Emilia?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Competencia innata en la infancia."
+            },
+            {
+              "id": "b",
+              "text": "Enfoque tradicional en la enseñanza."
+            },
+            {
+              "id": "c",
+              "text": "Restricción de la independencia."
+            },
+            {
+              "id": "d",
+              "text": "Escaso énfasis en la creatividad."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Qué papel desempeña la confianza en el desarrollo de la autonomía en la infancia?",
+          "options": [
+            {
+              "id": "a",
+              "text": "No es relevante."
+            },
+            {
+              "id": "b",
+              "text": "Puede ser perjudicial."
+            },
+            {
+              "id": "c",
+              "text": "Es fundamental para el éxito futuro."
+            },
+            {
+              "id": "d",
+              "text": "No tiene relación con la autonomía."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Quién destacó la etapa de 1 a 2 años como el inicio del deseo de la independencia?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sigmund Freud."
+            },
+            {
+              "id": "b",
+              "text": "Jean Piaget."
+            },
+            {
+              "id": "c",
+              "text": "Erik Erikson."
+            },
+            {
+              "id": "d",
+              "text": "John Bowlby."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué implica la autonomía en la infancia?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El desarrollo de habilidades de cuidado personal."
+            },
+            {
+              "id": "b",
+              "text": "El desarrollo de estrategias matemáticas avanzadas."
+            },
+            {
+              "id": "c",
+              "text": "El conocimiento sobre el arte contemporáneo."
+            },
+            {
+              "id": "d",
+              "text": "El conocimiento sobre la historia antigua."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Cómo se conoce a la figura del educador en la pedagogía Reggio Emilia?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El tercer maestro."
+            },
+            {
+              "id": "b",
+              "text": "El enlace entre alumnado y ambiente."
+            },
+            {
+              "id": "c",
+              "text": "El segundo maestro."
+            },
+            {
+              "id": "d",
+              "text": "El líder."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Cuál de las siguientes estrategias se recomiendan para fomentar la autonomía en el cambio de pañal?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Relatar cada paso del proceso y animar a que participe sujetando un pañal o alcanzando un objeto."
+            },
+            {
+              "id": "b",
+              "text": "Ir a comprar juntos los pañales."
+            },
+            {
+              "id": "c",
+              "text": "Pedirle que se ajuste las tiras del pañal."
+            },
+            {
+              "id": "d",
+              "text": "Dejar al menor sin pañal hasta que sienta la necesidad de ponérselo."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿Qué enfoque pedagógico valora la independencia, la concentración y el aprendizaje a través del trabajo individual y autodirigido?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Pedagogía Montessori."
+            },
+            {
+              "id": "b",
+              "text": "Pedagogía Reggio Emilia."
+            },
+            {
+              "id": "c",
+              "text": "Pedagogía Waldorf."
+            },
+            {
+              "id": "d",
+              "text": "Pedagogía Tradicional."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "Según Piaget, ¿a qué edad las niñas y los niños comienzan a representar su mundo a través del lenguaje y la imaginación, lo que promueve su capacidad de tomar decisiones y resolver problemas de forma independiente?",
+          "options": [
+            {
+              "id": "a",
+              "text": "0-1 años."
+            },
+            {
+              "id": "b",
+              "text": "1-2 años."
+            },
+            {
+              "id": "c",
+              "text": "2-3 años."
+            },
+            {
+              "id": "d",
+              "text": "3-6 años."
+            }
+          ],
+          "correctOption": "c"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-22",
+      "title": "IVAP · Tema 22 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 22.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 22.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Cuál de las siguientes NO es una responsabilidad del personal técnico de gestión en Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Adaptar la acción educativa y los recursos disponibles a las necesidades individuales y grupales de todos los niños y niñas."
+            },
+            {
+              "id": "b",
+              "text": "Realizar las tareas de mantenimiento del centro, especialmente aquellas relacionadas con las Tecnologías de la Información y"
+            },
+            {
+              "id": "c",
+              "text": "Programar la intervención educativa y de atención de los niños y las niñas, de manera coordinada con el personal docente, impulsando estrategias metodológicas a partir de las directrices del Proyecto Educativo del Centro."
+            },
+            {
+              "id": "d",
+              "text": "Atender adecuadamente las necesidades básicas del alumnado durante el periodo lectivo, especialmente en las tareas de higiene y hábitos de alimentación."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿De cuántos educadores de escuela infantil, actualmente, consta la plantilla de las aulas de 2-3 años en CEIP?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Uno por cada unidad."
+            },
+            {
+              "id": "b",
+              "text": "Dos por cada unidad."
+            },
+            {
+              "id": "c",
+              "text": "Uno por cada dos unidades."
+            },
+            {
+              "id": "d",
+              "text": "Uno, independientemente del número de unidades."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Cuál es una responsabilidad del personal técnico de gestión en Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Diseñar y aplicar estrategias de actuación con las familias en colaboración con las maestras y maestras, en el marco del"
+            },
+            {
+              "id": "b",
+              "text": "Realizar la evaluación sociopsicopedagógica en colaboración con las maestras y maestros, en el marco del Proyecto Educativo de Centro."
+            },
+            {
+              "id": "c",
+              "text": "Programar, desarrollar y evaluar programas para la adquisición y el desarrollo del habla, especialmente del alumnado que presente trastornos del lenguaje."
+            },
+            {
+              "id": "d",
+              "text": "Programar, desarrollar y evaluar programas para el uso funcional, especialmente del alumnado que presente discapacidad motriz."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "La carga lectiva del título de Técnico Superior en Educación Infantil es de:",
+          "options": [
+            {
+              "id": "a",
+              "text": "4 años."
+            },
+            {
+              "id": "b",
+              "text": "360 horas."
+            },
+            {
+              "id": "c",
+              "text": "100 horas."
+            },
+            {
+              "id": "d",
+              "text": "2000 horas."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Cuál de las siguientes NO es una unidad de competencia profesional del personal técnico superior en Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Promover e implementar situaciones de juego como eje de la actividad y del desarrollo infantil."
+            },
+            {
+              "id": "b",
+              "text": "Desarrollar los recursos expresivos y comunicativos del niño y la niña como medio de crecimiento personal y social."
+            },
+            {
+              "id": "c",
+              "text": "Desarrollar acciones para favorecer la exploración del entorno a través del contacto con los objetos; relaciones del niño o niña con sus iguales y con las personas adultas."
+            },
+            {
+              "id": "d",
+              "text": "Definir, secuenciar y evaluar aprendizajes, interpretándolos en el contexto del desarrollo de seis a doce años."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué medida preventiva debe tomar el personal técnico de gestión en Educación Infantil para evitar riesgos derivados del uso de la voz?",
+          "options": [
+            {
+              "id": "a",
+              "text": "La revisión de calderas y aparatos térmicos."
+            },
+            {
+              "id": "b",
+              "text": "Prestar atención mientras se anda por la zona de juego de los niños."
+            },
+            {
+              "id": "c",
+              "text": "Hidratarse adecuadamente y beber agua con frecuencia."
+            },
+            {
+              "id": "d",
+              "text": "Cubrirse la boca al toser y evitar el contacto directo con las secreciones respiratorias."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿En qué tipología de centro desarrolla sus funciones el personal técnico en Educación Infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Centros específicos de educación especial."
+            },
+            {
+              "id": "b",
+              "text": "Institutos de educación secundaria."
+            },
+            {
+              "id": "c",
+              "text": "Escuelas oficiales de idiomas."
+            },
+            {
+              "id": "d",
+              "text": "Escuelas infantiles de primer ciclo de Educación Infantil."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "La causa principal de la exposición del personal técnico de gestión en Educación Infantil a agentes biológicos es:",
+          "options": [
+            {
+              "id": "a",
+              "text": "La adopción de posturas forzadas."
+            },
+            {
+              "id": "b",
+              "text": "Las enfermedades transmitidas por virus y bacterias."
+            },
+            {
+              "id": "c",
+              "text": "La presencia de productos de limpieza inflamables."
+            },
+            {
+              "id": "d",
+              "text": "La disfonía."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "La competencia general del personal técnico de gestión de Educación Infantil consiste en diseñar, implementar y evaluar proyectos y programas educativos de atención a la infancia en el primer ciclo de educación infantil en el ámbito formal, de acuerdo con la propuesta pedagógica elaborada por:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Un maestro o maestra con la especialización en educación infantil o título de grado equivalente."
+            },
+            {
+              "id": "b",
+              "text": "Un maestro o maestra con la especialización en educación primaria o título de grado equivalente."
+            },
+            {
+              "id": "c",
+              "text": "Un maestro o maestra con la especialización en lengua extranjera o título de grado equivalente."
+            },
+            {
+              "id": "d",
+              "text": "Un maestro o maestra con la especialización en educación física o título de grado equivalente."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "El título de Técnico en Educación infantil se obtiene a través de:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Grado Básico."
+            },
+            {
+              "id": "b",
+              "text": "Grado Superior."
+            },
+            {
+              "id": "c",
+              "text": "Grado medio."
+            },
+            {
+              "id": "d",
+              "text": "Ninguna de las anteriores."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-23",
+      "title": "IVAP · Tema 23 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 23.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 23.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "En el plan de transición se organiza principalmente...",
+          "options": [
+            {
+              "id": "a",
+              "text": "La reunión de constitución, la planificación de posibles actividades que se van a realizar a lo largo del curso, la evaluación del"
+            },
+            {
+              "id": "b",
+              "text": "La planificación de las actividades que se van a realizar a lo largo del curso en el segundo ciclo de Educación Infantil."
+            },
+            {
+              "id": "c",
+              "text": "La evaluación de los saberes de los alumno/as que terminan el primer ciclo de Educación Infantil."
+            },
+            {
+              "id": "d",
+              "text": "La planificación de actividades y propuestas de mejora en cuanto a las actividades complementarias que se realizan en el centro."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "En el plan de transición, las reuniones de interciclo sirven para...",
+          "options": [
+            {
+              "id": "a",
+              "text": "Intercambiar información sobre los intereses del alumnado."
+            },
+            {
+              "id": "b",
+              "text": "Que los tutores de ambos ciclos se conozcan."
+            },
+            {
+              "id": "c",
+              "text": "Que los alumno/as de ambos ciclos se conozcan."
+            },
+            {
+              "id": "d",
+              "text": "Intercambiar información entre los tutores de ambos ciclos y establecer pautas de actuación con los alumno/as con NEE."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Quién forma parte de la reunión de constitución del plan de transición?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Únicamente las tutoras y tutores de ambos ciclos."
+            },
+            {
+              "id": "b",
+              "text": "Tutores/as, técnicos/as de gestión en Educación Infantil, personal especialista en NEE, orientador/a y jefe/a de estudios."
+            },
+            {
+              "id": "c",
+              "text": "Únicamente los tutores/as de primer ciclo y jefe/a de estudios."
+            },
+            {
+              "id": "d",
+              "text": "El equipo directivo del centro."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "Al finalizar el plan de transición entre ambos ciclos:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Se planificarán reuniones con las familias."
+            },
+            {
+              "id": "b",
+              "text": "Se evaluará el proceso del mismo y se ofrecerán propuestas de mejora para el curso siguiente."
+            },
+            {
+              "id": "c",
+              "text": "Se planificarán las actividades para el siguiente curso escolar."
+            },
+            {
+              "id": "d",
+              "text": "Se evaluará el rendimiento del alumnado que inicia el segundo ciclo de Educación Infantil."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "El plan de transición forma parte del:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Proyecto lingüístico de centro (PLC)."
+            },
+            {
+              "id": "b",
+              "text": "Proyecto educativo de centro (PEC)."
+            },
+            {
+              "id": "c",
+              "text": "Proyecto curricular de centro (PCC)."
+            },
+            {
+              "id": "d",
+              "text": "Programación general anual (PGA)."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "En el primer ciclo de educación infantil, el equipo educativo estará formado por...",
+          "options": [
+            {
+              "id": "a",
+              "text": "Los tutores de las aulas."
+            },
+            {
+              "id": "b",
+              "text": "Todos los profesionales que intervienen en el centro educativo."
+            },
+            {
+              "id": "c",
+              "text": "Todos los profesionales (maestros/as en Educación Infantil y técnicos/as de gestión en Educación Infantil) que intervienen en"
+            },
+            {
+              "id": "d",
+              "text": "Todos los profesionales que intervienen en el centro educativo y las familias de los alumnos."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Cuál es la función principal del tutor/a en el primer ciclo de educación infantil?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Recoger toda la información del alumno/a que aporta la familia."
+            },
+            {
+              "id": "b",
+              "text": "Realizar el seguimiento, tanto individual como de grupo, del proceso de aprendizaje de todos los niños, y favorecer un"
+            },
+            {
+              "id": "c",
+              "text": "Reunirse con la familia para informar del proceso de aprendizaje de los alumno/as."
+            },
+            {
+              "id": "d",
+              "text": "Preparar actividades motivadoras para los alumno/as."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿A quién va dirigido el plan de transición principalmente?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Alumnado únicamente."
+            },
+            {
+              "id": "b",
+              "text": "Profesorado únicamente."
+            },
+            {
+              "id": "c",
+              "text": "Familia, equipo educativo y alumnado."
+            },
+            {
+              "id": "d",
+              "text": "Familia y alumnado únicamente."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "En el cambio significativo que supone el paso de primer ciclo a segundo ciclo de Educación Infantil destaca sobre todo...",
+          "options": [
+            {
+              "id": "a",
+              "text": "El cambio de material didáctico."
+            },
+            {
+              "id": "b",
+              "text": "El cambio de rutinas."
+            },
+            {
+              "id": "c",
+              "text": "El cambio de espacios y profesorado."
+            },
+            {
+              "id": "d",
+              "text": "El cambio de compañero/as."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "La transición es:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El paso de un curso a otro que experimenta el alumnado."
+            },
+            {
+              "id": "b",
+              "text": "El paso de una etapa a otra, que experimenta el alumnado."
+            },
+            {
+              "id": "c",
+              "text": "Cuando un alumno/a cambia de colegio."
+            },
+            {
+              "id": "d",
+              "text": "Cuando un alumno/a experimenta un cambio importante en su situación familiar."
+            }
+          ],
+          "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-24",
+      "title": "IVAP · Tema 24 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 24.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 24.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿Qué es el proyecto educativo de centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Documento que recoge los horarios de los docentes."
+            },
+            {
+              "id": "b",
+              "text": "Documento que recoge las instrucciones de inicio de curso."
+            },
+            {
+              "id": "c",
+              "text": "Documento pedagógico elaborado por y para la comunidad educativa."
+            },
+            {
+              "id": "d",
+              "text": "Documento pedagógico que recoge el proyecto lingüístico del centro."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "La distribución de la rutina diaria va a depender, principalmente de:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El horario de trabajo de los padres."
+            },
+            {
+              "id": "b",
+              "text": "El consejo escolar."
+            },
+            {
+              "id": "c",
+              "text": "Las edades de los niño/as."
+            },
+            {
+              "id": "d",
+              "text": "El horario que establezca el equipo directivo del centro."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿Quién aprueba y evalúa el proyecto educativo de centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Equipo de orientación del centro."
+            },
+            {
+              "id": "b",
+              "text": "Consejo escolar."
+            },
+            {
+              "id": "c",
+              "text": "Equipo docente."
+            },
+            {
+              "id": "d",
+              "text": "Equipo directivo."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿Quién elabora el proyecto educativo de centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Equipo de orientación del centro."
+            },
+            {
+              "id": "b",
+              "text": "Consejo escolar."
+            },
+            {
+              "id": "c",
+              "text": "Equipo educativo."
+            },
+            {
+              "id": "d",
+              "text": "Equipo directivo."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿Cuándo se realiza el periodo de acogida del alumno/a al centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "En junio."
+            },
+            {
+              "id": "b",
+              "text": "En julio."
+            },
+            {
+              "id": "c",
+              "text": "En septiembre."
+            },
+            {
+              "id": "d",
+              "text": "En octubre."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿Qué es la línea pedagógica del centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Conjunto de estrategias, procedimientos y acciones organizadas que tienen la finalidad de facilitar las posibilidades de"
+            },
+            {
+              "id": "b",
+              "text": "Conjunto de actividades que se realizan en el centro en horario lectivo."
+            },
+            {
+              "id": "c",
+              "text": "Conjunto de proyectos de innovación que se realizan en un centro."
+            },
+            {
+              "id": "d",
+              "text": "Conjunto de actividades que se realizan en el aula."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "¿Cómo debe ser el acceso o entrada en el aula a lo largo del curso escolar?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Horario fijo, estable."
+            },
+            {
+              "id": "b",
+              "text": "Flexible."
+            },
+            {
+              "id": "c",
+              "text": "Entrada escalonada."
+            },
+            {
+              "id": "d",
+              "text": "Libre."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "¿Cuáles son las siglas del proyecto educativo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "PEPLI."
+            },
+            {
+              "id": "b",
+              "text": "PELO."
+            },
+            {
+              "id": "c",
+              "text": "PEC."
+            },
+            {
+              "id": "d",
+              "text": "PEL."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "¿Qué son las señas de identidad del centro?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El conjunto de proyectos que se elaboran en un centro."
+            },
+            {
+              "id": "b",
+              "text": "Los objetivos del centro."
+            },
+            {
+              "id": "c",
+              "text": "El equipo educativo de un centro."
+            },
+            {
+              "id": "d",
+              "text": "El conjunto de valores, finalidades y prioridades de actuación de un centro."
+            }
+          ],
+          "correctOption": "d"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "¿Cómo se planifican las actividades pedagógicas que se van a realizar a lo largo de la jornada escolar?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Se planifican de acuerdo con la interculturalidad del aula."
+            },
+            {
+              "id": "b",
+              "text": "Se planifican de acuerdo con los intereses del equipo docente del centro."
+            },
+            {
+              "id": "c",
+              "text": "Se planifican de acuerdo con los mínimos establecidos en el consejo escolar."
+            },
+            {
+              "id": "d",
+              "text": "Se planifican de acuerdo con los intereses de niños y niñas y su edad, según sus características y respetando la diversidad e"
+            }
+          ],
+          "correctOption": "d"
+        }
+      ]
+    },
+    {
+      "id": "ivap-tema-25",
+      "title": "IVAP · Tema 25 · Cuestionario",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 25.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/CUESTIONARIO TEMA 25.pdf"
+      },
+      "questionCount": 10,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "Decroly fundó:",
+          "options": [
+            {
+              "id": "a",
+              "text": "L’ecole d’Ermitage."
+            },
+            {
+              "id": "b",
+              "text": "Escuela Materna."
+            },
+            {
+              "id": "c",
+              "text": "La Casa dei Bambini."
+            },
+            {
+              "id": "d",
+              "text": "Las instalaciones de juego."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "¿Cuál de los siguientes NO es un criterio para la distribución y organización adecuada del tiempo?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El horario debe ser conocido y comprendido por el grupo-clase para ir adquiriendo la noción del tiempo y orientarse en él."
+            },
+            {
+              "id": "b",
+              "text": "Las familias no deben conocer previamente la organización del tiempo para evitar la anticipación del niño o la niña."
+            },
+            {
+              "id": "c",
+              "text": "Programaremos las actividades atendiendo a la curva de fatiga de los niños y niñas."
+            },
+            {
+              "id": "d",
+              "text": "Alternaremos actividades que requieran mayor esfuerzo de concentración con aquellas que estén más centradas en sus intereses."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "Los criterios de Zabalza (1983) para la selección de materiales son:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Coherencia y adaptabilidad."
+            },
+            {
+              "id": "b",
+              "text": "Coherencia y uso."
+            },
+            {
+              "id": "c",
+              "text": "Edad y Adaptabilidad."
+            },
+            {
+              "id": "d",
+              "text": "Tamaño y uso."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "Según Loughlin y Suina en 1987, el ambiente:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Hay que organizarlo con las familias."
+            },
+            {
+              "id": "b",
+              "text": "Influye significativamente en aquellos que los ocupan."
+            },
+            {
+              "id": "c",
+              "text": "Solo es el aula."
+            },
+            {
+              "id": "d",
+              "text": "Se refiere al patio escolar."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "Salla (1986) indica que el espacio educativo:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Es un elemento que permite que la acción educativa esté organizada."
+            },
+            {
+              "id": "b",
+              "text": "Es el punto de inicio de la acción educativa."
+            },
+            {
+              "id": "c",
+              "text": "Está sobrevalorado."
+            },
+            {
+              "id": "d",
+              "text": "No incide en el aprendizaje del niño/a."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "Destaca Zabalza (1987) como propuesta de organización espacial:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Las instalaciones de juego."
+            },
+            {
+              "id": "b",
+              "text": "Los rincones de juego o actividad."
+            },
+            {
+              "id": "c",
+              "text": "Ambientes de trabajo."
+            },
+            {
+              "id": "d",
+              "text": "Talleres."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "Maria Montesori fundó un modelo llamado:",
+          "options": [
+            {
+              "id": "a",
+              "text": "L’ecole d’Ermitage."
+            },
+            {
+              "id": "b",
+              "text": "Escuela Materna."
+            },
+            {
+              "id": "c",
+              "text": "La Casa dei Bambini."
+            },
+            {
+              "id": "d",
+              "text": "Las instalaciones de juego."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "Según Moll y Pujol (1991), el mobiliario debe reunir como condición:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Ser adecuado a la edad."
+            },
+            {
+              "id": "b",
+              "text": "Cualquier mobiliario es adecuado."
+            },
+            {
+              "id": "c",
+              "text": "Ser reciclable."
+            },
+            {
+              "id": "d",
+              "text": "Debe tener salientes."
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "Material fungible se define como:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Material de uso esporádico."
+            },
+            {
+              "id": "b",
+              "text": "Material reciclable."
+            },
+            {
+              "id": "c",
+              "text": "Material de uso cotidiano."
+            },
+            {
+              "id": "d",
+              "text": "Material con un único uso."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "La organización temporal en Educación Infantil será:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Continua."
+            },
+            {
+              "id": "b",
+              "text": "Cerrada."
+            },
+            {
+              "id": "c",
+              "text": "Flexible."
+            },
+            {
+              "id": "d",
+              "text": "Estática."
+            }
+          ],
+          "correctOption": "c"
+        }
+      ]
+    },
+    {
       "id": "maestro-infantil-bateria-01",
       "title": "Maestro/a Infantil · Batería · Examen 01 · Preguntas 1-50",
       "source": {
@@ -18928,6 +25203,617 @@ window.TEST_APP_DATA = {
             }
           ],
           "correctOption": "b"
+        }
+      ]
+    },
+    {
+      "id": "villaquejida-educador-infantil-2018",
+      "title": "Villaquejida · Educador/a Infantil · Teórico · 2018",
+      "source": {
+        "questionsPdf": "/Users/jolatorr/Downloads/Examen__Corregido.pdf",
+        "answersPdf": "/Users/jolatorr/Downloads/Examen__Corregido.pdf"
+      },
+      "questionCount": 30,
+      "questions": [
+        {
+          "id": "q1",
+          "number": 1,
+          "text": "¿QUÉ FACTORES ESTÁN IMPLICADOS EN LA CONSTRUCCIÓN DEL ESQUEMA CORPORAL?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Motores, perceptivos, lingüísticos y culturales"
+            },
+            {
+              "id": "b",
+              "text": "Motores, perceptivos, lingüísticos y cognitivos"
+            },
+            {
+              "id": "c",
+              "text": "Motores, culturales, lingüísticos y cognitivos"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q2",
+          "number": 2,
+          "text": "A CONTINUACIÓN SE SEÑALAN VARIAS CARACTERÍSTICAS DEL PERÍODO SENSORIOMOTOR. MARQUE LA ALTERNATIVA INCORRECTA.",
+          "options": [
+            {
+              "id": "a",
+              "text": "Se da relevancia a lo perceptivo y lo motor"
+            },
+            {
+              "id": "b",
+              "text": "Se produce una coordinación de esquemas sensoriales y motores"
+            },
+            {
+              "id": "c",
+              "text": "Aparece la función simbólica en todas sus formas"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q3",
+          "number": 3,
+          "text": "¿CUÁL ES LA VERTIENTE VALORATIVA DENTRO DEL DESARROLLO DE LA SEXUALIDAD?",
+          "options": [
+            {
+              "id": "a",
+              "text": "La identidad sexual"
+            },
+            {
+              "id": "b",
+              "text": "La tipificación sexual"
+            },
+            {
+              "id": "c",
+              "text": "La orientación sexual"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q4",
+          "number": 4,
+          "text": "¿CUÁLES SON LAS CONDICIONES PARA QUE SE ESTABLEZCA EL APEGO?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Vínculo preferencial, presencia de procesos afectivos y paternidad compartida"
+            },
+            {
+              "id": "b",
+              "text": "Vínculo preferencial, modelo interno de trabajo y repertorio perceptivo del bebe"
+            },
+            {
+              "id": "c",
+              "text": "Vínculo preferencial, modelo interno de trabajo y presencia de procesos afectivos"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q5",
+          "number": 5,
+          "text": "¿EN QUÉ SE CARACTERIZAN LAS ACCIONES DEL PERÍODO PREOPERATORIO?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Son acciones manifiestas y reversibles"
+            },
+            {
+              "id": "b",
+              "text": "Son acciones manifiestas e irreversibles"
+            },
+            {
+              "id": "c",
+              "text": "Son acciones interiorizadas e irreversibles"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q6",
+          "number": 6,
+          "text": "¿CUÁL DE LAS SIGUIENTES ES UNA CARACTERÍSTICA COMÚN DEL JUEGO?",
+          "options": [
+            {
+              "id": "a",
+              "text": "El juego produce placer"
+            },
+            {
+              "id": "b",
+              "text": "El juego es necesario para niños y adultos"
+            },
+            {
+              "id": "c",
+              "text": "Todas las respuestas anteriores son correctas Proceso selectivo de personal laboral temporal por concurso/oposición –Educador Infantil, Guardería Municipal-, Grupo C, Subgrupo C1, convocado por Resolución de 9 de agosto de 2018, (BOPL número 153, del lunes 13 de agosto de 2018)."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q7",
+          "number": 7,
+          "text": "SEGÚN LA TEORÍA DE PIAGET, EL DESARROLLO COGNITIVO DEL BEBÉ SE REALIZA A TRAVÉS DE:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Un proceso de asimilación y acomodación"
+            },
+            {
+              "id": "b",
+              "text": "Un proceso de asimilación y escucha"
+            },
+            {
+              "id": "c",
+              "text": "Un proceso de estimulación y castigo"
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q8",
+          "number": 8,
+          "text": "LOS RINCONES DEL JUEGO SON NECESARIOS PARA:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Desarrollar la autonomía"
+            },
+            {
+              "id": "b",
+              "text": "Desarrollar el gusto por aprender"
+            },
+            {
+              "id": "c",
+              "text": "Las opciones a) y b) son correctas."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q9",
+          "number": 9,
+          "text": "SEÑALA LA AFIRMACIÓN CORRECTA SOBRE “EL GARABATEO DESORDENADO”:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Sus movimientos son controlados"
+            },
+            {
+              "id": "b",
+              "text": "Tiene una finalidad representativa"
+            },
+            {
+              "id": "c",
+              "text": "Son trazos largos, sin sentido ni orden"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q10",
+          "number": 10,
+          "text": "EL JUEGO INFANTIL DURANTE LOS CUATRO PRIMEROS MESES SE CARACTERIZA PORQUE:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Es principalmente espontáneo"
+            },
+            {
+              "id": "b",
+              "text": "Juega más con los adultos que en solitario"
+            },
+            {
+              "id": "c",
+              "text": "El interés se centra en los objetos"
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q11",
+          "number": 11,
+          "text": "ENTRE LOS DOS Y LOS TRES AÑOS APROXIMADAMENTE:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Predomina el juego compartido"
+            },
+            {
+              "id": "b",
+              "text": "Se abandona definitivamente el juego en paralelo"
+            },
+            {
+              "id": "c",
+              "text": "Aparece el juego simbólico"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q12",
+          "number": 12,
+          "text": "EN LA ORGANIZACIÓN DEL AULA POR RINCONES DE ACTIVIDAD, TENDREMOS EN CUENTA:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El momento evolutivo y los intereses de los niños y niñas"
+            },
+            {
+              "id": "b",
+              "text": "Las características y la cantidad del material ofertado"
+            },
+            {
+              "id": "c",
+              "text": "A) y B) son correctas"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q13",
+          "number": 13,
+          "text": "EN EL CONTROL DE ESFÍNTERES NO TENDREMOS EN CUENTA A LA HORA DE DECIDIR RETIRAR EL PAÑAL:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El momento evolutivo madurez e interés del niño o niña en el tema"
+            },
+            {
+              "id": "b",
+              "text": "La opinión y disposición de la familia"
+            },
+            {
+              "id": "c",
+              "text": "El hecho de que el niño o niña ya tenga 20 meses Proceso selectivo de personal laboral temporal por concurso/oposición –Educador Infantil, Guardería Municipal-, Grupo C, Subgrupo C1, convocado por Resolución de 9 de agosto de 2018, (BOPL número 153, del lunes 13 de agosto de 2018)."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q14",
+          "number": 14,
+          "text": "¿QUÉ ALIMENTO EVITAREMOS OFRECER A UN NIÑO O NIÑA CELÍACO/A?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Alimentos con frutos secos"
+            },
+            {
+              "id": "b",
+              "text": "Alimentos con gluten"
+            },
+            {
+              "id": "c",
+              "text": "A y B son correctas"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q15",
+          "number": 15,
+          "text": "EL OBJETIVO DE LA ENTREVISTA UNA VEZ TRANSCURRIDO EL PERÍODO DE ADAPTACIÓN ES:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Informar de la evolución del período de adaptación"
+            },
+            {
+              "id": "b",
+              "text": "Establecer una intervención educativa consensuada con la familia"
+            },
+            {
+              "id": "c",
+              "text": "A y B son correctas"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q16",
+          "number": 16,
+          "text": "CUANDO EL NIÑO O LA NIÑA LLEGA POR PRIMERA A LA ESCUELA:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Es importante saber suplantar a la familia mientras el niño o la niña están en la escuela"
+            },
+            {
+              "id": "b",
+              "text": "Es importante crear una relación basada en la confianza y el respeto mutuo"
+            },
+            {
+              "id": "c",
+              "text": "Ambas son correctas"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q17",
+          "number": 17,
+          "text": "LA PSICOMOTRICIDAD FINA:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Establece la coordinación óculo-manual"
+            },
+            {
+              "id": "b",
+              "text": "Establece el control psicomotor de los músculos de la mano"
+            },
+            {
+              "id": "c",
+              "text": "Establece el control psicomotor de las grandes masas musculares"
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q18",
+          "number": 18,
+          "text": "¿QUÉ AYUDA A LOS NIÑOS Y NIÑAS A DESARROLLAR HÁBITOS DE AUTONOMÍA PERSONAL?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Lavarles las manos y vestirlos"
+            },
+            {
+              "id": "b",
+              "text": "Adaptar los elementos de vestido e higiene a sus características evolutivas"
+            },
+            {
+              "id": "c",
+              "text": "Ayudar al niño cuando te demanda porque no sabe hacer algo"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q19",
+          "number": 19,
+          "text": "LA DIETA DE UN NIÑO/A DE DOS AÑOS DEBE COMPRENDER:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Leche, frutas, verduras, pescado, carne y huevos"
+            },
+            {
+              "id": "b",
+              "text": "Leche y sus derivados, cereales, fruta, verdura, legumbres, carne, pescado y huevos"
+            },
+            {
+              "id": "c",
+              "text": "Leche y sus derivados, cereales, fruta, verdura, carne, pescado y huevos"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q20",
+          "number": 20,
+          "text": "A UN/A NIÑ@ DE QUINCE MESES, COMO EDUCADOR, A LA HORA DE LA COMIDA DEBES:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Interaccionar con él, dejarle manejar la cuchara, aunque derrame parte y se ensucie"
+            },
+            {
+              "id": "b",
+              "text": "No dejarle comer solo, para que no se manche y se lo coma todo Proceso selectivo de personal laboral temporal por concurso/oposición –Educador Infantil, Guardería Municipal-, Grupo C, Subgrupo C1, convocado por Resolución de 9 de agosto de 2018, (BOPL número 153, del lunes 13 de agosto de 2018)."
+            },
+            {
+              "id": "c",
+              "text": "Dejarlo comer todo solo, para que se haga más autónomo"
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q21",
+          "number": 21,
+          "text": "LA INTERVENCIÓN EDUCATIVA CON NIÑ@S MENORES DE TRES AÑOS CONSISTE:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Las tareas relacionadas con el aseo personal, cambio de pañales, alimentación, sueño"
+            },
+            {
+              "id": "b",
+              "text": "Satisfacer las necesidades educativas"
+            },
+            {
+              "id": "c",
+              "text": "Satisfacer sus necesidades biológicas, establecer relaciones personales afectivas, significativas, de seguridad, atender su individualidad en un ambiente seguro y en colaboración de la familia."
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q22",
+          "number": 22,
+          "text": "SI TRAS UN ATRAGANTAMIENTO EL NIÑO O LA NIÑA LLORA, BALBUCEA, HABLA O TOSE, ¿QUÉ DEBEMOS HACER?",
+          "options": [
+            {
+              "id": "a",
+              "text": "La maniobra de Heimlich"
+            },
+            {
+              "id": "b",
+              "text": "Iniciaremos RCP"
+            },
+            {
+              "id": "c",
+              "text": "Estimular y facilitar que la tos siga produciéndose"
+            }
+          ],
+          "correctOption": "c"
+        },
+        {
+          "id": "q23",
+          "number": 23,
+          "text": "SOBRE LA DISPOSICIÓN DE MOBILIARIOS Y MATERIALES EN LAS AULAS DE LAS ESCUELAS INFANTILES, SE DEBE TENER EN CUENTA QUE:",
+          "options": [
+            {
+              "id": "a",
+              "text": "El espejo debe ser grande y estar colocado desde el suelo"
+            },
+            {
+              "id": "b",
+              "text": "Las estanterías siempre deben estar en alto, por encima de la altura de los niños y niñas"
+            },
+            {
+              "id": "c",
+              "text": "Los contenedores, cestos, baúles para almacenar materiales de juego, estarán colocados fuera del alcance de los niños y niñas"
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q24",
+          "number": 24,
+          "text": "ENTRE LAS “HABILIDADES MOTRICES GRUESAS” ESTÁ:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Agarrar"
+            },
+            {
+              "id": "b",
+              "text": "Sentarse"
+            },
+            {
+              "id": "c",
+              "text": "Soltar"
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q25",
+          "number": 25,
+          "text": "A LA “FALTA PERSISTENTE DE RESPUESTAS POR PARTE DE LOS PADRES O CUIDADORES DE LA PROXIMIDAD E INTERACCIÓN INICIADAS POR EL NIÑO, FALTA DE EXPRESIONES DE SENTIMIENTOS DE AMOR, AFECTO O INTERÉS POR ÉL” SE LE CONOCE COMO:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Negligencia física"
+            },
+            {
+              "id": "b",
+              "text": "Negligencia emocional"
+            },
+            {
+              "id": "c",
+              "text": "Maltrato emocional PREGUNTAS ADICIONALES DE RESERVA Proceso selectivo de personal laboral temporal por concurso/oposición –Educador Infantil, Guardería Municipal-, Grupo C, Subgrupo C1, convocado por Resolución de 9 de agosto de 2018, (BOPL número 153, del lunes 13 de agosto de 2018)."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q26",
+          "number": 26,
+          "text": "LA DISLALIA SE DEFINE COMO:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Un trastorno del habla que se caracteriza por la interrupción del ritmo y la melodía del discurso"
+            },
+            {
+              "id": "b",
+              "text": "Un trastorno en la articulación de los sonidos, sin que existan trastornos en el sistema nervioso central ni periférico"
+            },
+            {
+              "id": "c",
+              "text": "Un trastorno que se caracteriza por la ausencia total y persistente del lenguaje ante determinadas personas."
+            }
+          ],
+          "correctOption": "b"
+        },
+        {
+          "id": "q27",
+          "number": 27,
+          "text": "¿EN QUÉ NUTRIENTES SE ENCUENTRAN LOS AMINOÁCIDOS?",
+          "options": [
+            {
+              "id": "a",
+              "text": "Proteínas"
+            },
+            {
+              "id": "b",
+              "text": "Hidratos de carbono"
+            },
+            {
+              "id": "c",
+              "text": "Vitaminas"
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q28",
+          "number": 28,
+          "text": "LA QUIMIOPROFILAXIS CONSISTE EN:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Utilización de sustancias químicas para prevenir la aparición de una enfermedad"
+            },
+            {
+              "id": "b",
+              "text": "La inmunización como medida más eficaz para proteger a las personas"
+            },
+            {
+              "id": "c",
+              "text": "La reducción de los peligros de las personas contagiadas"
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q29",
+          "number": 29,
+          "text": "DENTRO DE LOS TIPOS DE INSTRUMENTOS DE OBSERVACIÓN, LA ESCALA DE ESTIMACIÓN PUEDE SER:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Gráfica, numérica o descriptiva"
+            },
+            {
+              "id": "b",
+              "text": "Gráfica, directa o descriptiva"
+            },
+            {
+              "id": "c",
+              "text": "Lineal, numérica o descriptiva"
+            }
+          ],
+          "correctOption": "a"
+        },
+        {
+          "id": "q30",
+          "number": 30,
+          "text": "EL SENTIMIENTO DE PERTENENCIA A UNO U OTRO SEXO SE DENOMINA:",
+          "options": [
+            {
+              "id": "a",
+              "text": "Orientación sexual"
+            },
+            {
+              "id": "b",
+              "text": "Preferencia sexual"
+            },
+            {
+              "id": "c",
+              "text": "Identidad sexual Proceso selectivo de personal laboral temporal por concurso/oposición –Educador Infantil, Guardería Municipal-, Grupo C, Subgrupo C1, convocado por Resolución de 9 de agosto de 2018, (BOPL número 153, del lunes 13 de agosto de 2018). AYUNTAMIENTO DE VILLAQUEJIDA SEGUNDO EJERCICIO Este segundo ejercicio, consistirá, conforme a las Bases, en la resolución de un supuesto práctico propuesto por el Tribunal, referente a las funciones a desempeñar y relacionado con las materias comprendidas en el Programa del Anexo a estas Bases. Conforme a las citadas Bases, este ejercicio se calificará de 0 a 10 puntos, valorándose la capacidad de análisis y la aplicación razonada de los conocimientos teóricos a la resolución de los problemas planteados, el rigor analítico, la sistemática y claridad de ideas para la elaboración de una propuesta razonada o la resolución de las cuestiones planteadas, así como la calidad de la expresión escrita. La duración total del ejercicio (incluido el primer ejercicio) será de 90 minutos. Se ruega escribir con letra clara y legible, y no usar abreviaturas. En caso contrario, se omitirá la valoración del texto correspondiente. No se permite copiar, ni utilizar textos, tal actitud conllevará la expulsión del proceso selectivo. No se permite hablar, copiar, ni utilizar textos, tal actitud conllevará la expulsión del proceso selectivo. El supuesto práctico se desarrollará exclusivamente en los folios que al efecto facilitará el Tribunal a los aspirantes. No doble, arrugue ni deteriore dichas hojas, que deberá devolver al terminar el ejercicio. No se corregirá ni calificará el supuesto práctico si no se supera el tipo test con la nota mínima exigida en las bases de la convocatoria. Por tanto aparecerá la nota del tipo test y en el supuesto práctico como No Corregido (NC). SUPUESTO PRÁCTICO Consta de dos apartados. Como educador o la educadora de un grupo mixto de 0 a 3 años: a) ¿Qué dos juegos propondrías?, ¿Qué espacio utilizarías, materiales, tiempo, papel de la educadora/educador?. b) Reunión general con los padres. Puntos a tratar en la reunión."
+            }
+          ],
+          "correctOption": "c"
         }
       ]
     }
